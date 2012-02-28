@@ -1201,3 +1201,32 @@ com.mysql.jdbc.exceptions.MySQLNonTransientConnectionException: No operations al
 [19:48:21.513] Logout: init
 [19:48:21.575] Compiling _jsp/_login__jsp.java
 /richardgoodman/Profile
+[20:21:08.610] java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+[20:21:08.610] 	at java.util.ArrayList.RangeCheck(ArrayList.java:546)
+[20:21:08.610] 	at java.util.ArrayList.get(ArrayList.java:321)
+[20:21:08.610] 	at uk.ac.dundee.computing.richardgoodman.banter.TweetBean.getUsernames(TweetBean.java:48)
+[20:21:08.610] 	at _jsp._index__jsp._jspService(_index__jsp.java:73)
+[20:21:08.610] 	at com.caucho.jsp.JavaPage.service(JavaPage.java:60)
+[20:21:08.610] 	at com.caucho.jsp.Page.pageservice(Page.java:570)
+[20:21:08.610] 	at com.caucho.server.dispatch.PageFilterChain.doFilter(PageFilterChain.java:179)
+[20:21:08.610] 	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:173)
+[20:21:08.610] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[20:21:08.610] 	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:274)
+[20:21:08.610] 	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:511)
+[20:21:08.610] 	at com.caucho.util.ThreadPool.runTasks(ThreadPool.java:516)
+[20:21:08.610] 	at com.caucho.util.ThreadPool.run(ThreadPool.java:442)
+[20:21:08.610] 	at java.lang.Thread.run(Thread.java:595)
+[20:21:26.547] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[20:21:26.547] resin-file: destroy
+[20:21:26.547] Login: destroy
+[20:21:26.547] Logout: destroy
+[20:21:26.547] Compose: destroy
+[20:21:26.547] Newsfeed: destroy
+[20:21:26.547] ManageProfile: destroy
+[20:21:26.547] Profile: destroy
+[20:21:26.547] Followers: destroy
+[20:21:26.547] Following: destroy
+[20:21:27.188] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[20:21:27.219] Login: init
+[20:21:27.266] resin-file: init
+[20:21:34.188] Newsfeed: init

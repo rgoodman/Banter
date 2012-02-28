@@ -664,3 +664,15 @@ com.mysql.jdbc.exceptions.MySQLNonTransientConnectionException: Too many connect
 [19:20:55.125] Compiling _jsp/_manageprofile__jsp.java
 [19:20:55.860] Compose: init
 [19:20:56.000] Compiling _jsp/_compose__jsp.java
+[12:52:08.140] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[12:52:08.140] resin-file: destroy
+[12:52:08.140] Login: destroy
+[12:52:08.140] Logout: destroy
+[12:52:08.140] Create: destroy
+[12:52:08.140] Compose: destroy
+[12:52:08.140] Newsfeed: destroy
+[12:52:08.140] ManageProfile: destroy
+[12:52:08.140] Profile: destroy
+[12:52:08.140] Followers: destroy
+[12:52:08.140] Following: destroy
+[12:52:57.499] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting

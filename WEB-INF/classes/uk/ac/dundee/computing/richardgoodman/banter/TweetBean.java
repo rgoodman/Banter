@@ -55,8 +55,6 @@ public class TweetBean
   
 	public Date getTimePosteds(int index)
 	{
-		//String time = "" + timePosteds.get(index).getDate() + "." + timePosteds.get(index).getMonth() + "." + timePosteds.get(index).getYear() + " at " + timePosteds.get(index).getHours() + ":" + timePosteds.get(index).getMinutes();
-		//String time = (timePosteds.get(index)).toString();
 		return timePosteds.get(index);
 	}
   

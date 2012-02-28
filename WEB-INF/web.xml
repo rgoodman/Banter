@@ -78,6 +78,15 @@
   </servlet-mapping>
   
   <servlet>
+  	<servlet-name>Follow</servlet-name>
+		<servlet-class>uk.ac.dundee.computing.richardgoodman.banter.FollowThisPerson</servlet-class>
+	</servlet>
+  <servlet-mapping>
+    <servlet-name>Follow</servlet-name>
+    <url-pattern>/follow/*</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
   	<servlet-name>Followers</servlet-name>
 		<servlet-class>uk.ac.dundee.computing.richardgoodman.banter.Followers</servlet-class>
 	</servlet>

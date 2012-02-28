@@ -17,10 +17,6 @@ public class Compose extends HttpServlet
 		ErrorMessageBean errorBean = (ErrorMessageBean)currentSession.getAttribute("errorBean");
 		int accountID = userBean.getAccountID();
 		String banterMessage = req.getParameter("message");
-	
-		
-		//banterMessage.replace('<','');
-		//banterMessage.replaceAll('>','');
 		
 		String tweetedMessage = StringEscapeUtils.escapeHtml(banterMessage);
 		tweetedMessage = StringEscapeUtils.escapeJavaScript(tweetedMessage);

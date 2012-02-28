@@ -676,3 +676,13 @@ com.mysql.jdbc.exceptions.MySQLNonTransientConnectionException: Too many connect
 [12:52:08.140] Followers: destroy
 [12:52:08.140] Following: destroy
 [12:52:57.499] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[16:19:10.484] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[16:25:43.012] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[16:25:43.044] Login: init
+[16:25:43.091] resin-file: init
+[16:25:45.372] Newsfeed: init
+[16:26:01.075] Profile: init
+/richardgoodman/Profile
+[16:26:01.137] Compiling _jsp/_profile__jsp.java
+/richardgoodman/Profile
+/richardgoodman/Profilenull

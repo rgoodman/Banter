@@ -1,0 +1,666 @@
+[19:07:42.468] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[19:07:42.468] resin-file: destroy
+[19:07:42.468] Login: destroy
+[19:07:42.468] Newsfeed: destroy
+[19:07:42.468] ManageProfile: destroy
+[19:07:42.468] Profile: destroy
+[19:09:19.717] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[20:52:32.959] Login: init
+[20:52:33.459] resin-file: init
+[20:52:35.709] Newsfeed: init
+[20:52:38.521] Compose: init
+[20:52:38.740] Compiling uk/ac/dundee/computing/richardgoodman/banter/Follow.java
+[20:52:39.131] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\Follow.java:19: cannot find symbol
+[20:52:39.131] symbol  : variable userID
+[20:52:39.131] location: class uk.ac.dundee.computing.richardgoodman.banter.Follow
+[20:52:39.131] 		if (userID == profileID)
+[20:52:39.131]                     ^
+[20:52:39.131] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\Follow.java:19: cannot find symbol
+[20:52:39.131] symbol  : variable profileID
+[20:52:39.131] location: class uk.ac.dundee.computing.richardgoodman.banter.Follow
+[20:52:39.131] 		if (userID == profileID)
+[20:52:39.131]                               ^
+[20:52:39.131] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\Follow.java:38: cannot find symbol
+[20:52:39.131] symbol  : variable addQuery
+[20:52:39.131] location: class uk.ac.dundee.computing.richardgoodman.banter.Follow
+[20:52:39.131] 				addQuery = "DELETE FROM friendship WHERE PosterID = ? AND ReaderID = ? ";
+[20:52:39.131]                                 ^
+[20:52:39.131] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\Follow.java:39: cannot find symbol
+[20:52:39.131] symbol  : variable addQuery
+[20:52:39.131] location: class uk.ac.dundee.computing.richardgoodman.banter.Follow
+[20:52:39.131] 				pstmt = MyConnection.prepareStatement( addQuery );
+[20:52:39.131]                                                                        ^
+[20:52:39.131] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\Follow.java:47: cannot find symbol
+[20:52:39.131] symbol  : variable addQuery
+[20:52:39.131] location: class uk.ac.dundee.computing.richardgoodman.banter.Follow
+[20:52:39.131] 				addQuery = "INSERT INTO friendship WHERE PosterID = ? AND ReaderID = ? ";
+[20:52:39.131]                                 ^
+[20:52:39.131] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\Follow.java:48: cannot find symbol
+[20:52:39.131] symbol  : variable addQuery
+[20:52:39.131] location: class uk.ac.dundee.computing.richardgoodman.banter.Follow
+[20:52:39.131] 				pstmt = MyConnection.prepareStatement( addQuery );
+[20:52:39.131]                                                                        ^
+[20:52:39.131] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\Follow.java:58: cannot find symbol
+[20:52:39.131] symbol  : variable friendshipBean
+[20:52:39.131] location: class uk.ac.dundee.computing.richardgoodman.banter.Follow
+[20:52:39.131] 			friendshipBean.setPageTitle("Who is following you");
+[20:52:39.131]                         ^
+[20:52:39.131] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\Follow.java:60: cannot find symbol
+[20:52:39.131] symbol  : variable friendshipBean
+[20:52:39.131] location: class uk.ac.dundee.computing.richardgoodman.banter.Follow
+[20:52:39.131] 			req.getSession().setAttribute("friendshipBean", friendshipBean);
+[20:52:39.131]                                                                         ^
+[20:52:39.131] 8 errors
+[20:53:32.240] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[20:53:32.240] resin-file: destroy
+[20:53:32.240] Login: destroy
+[20:53:32.240] Compose: destroy
+[20:53:32.240] Newsfeed: destroy
+[20:53:32.365] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[08:35:59.048] Login: init
+[08:35:59.267] resin-file: init
+[08:36:02.876] Newsfeed: init
+[08:36:07.298] Followers: init
+[08:36:07.626] Compiling uk/ac/dundee/computing/richardgoodman/banter/Follow.java
+com.caucho.jsp.JspParseException: d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\Follow.java:19: cannot find symbol
+symbol  : variable userID
+location: class uk.ac.dundee.computing.richardgoodman.banter.Follow
+		if (userID == profileID)
+                    ^
+d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\Follow.java:19: cannot find symbol
+symbol  : variable profileID
+location: class uk.ac.dundee.computing.richardgoodman.banter.Follow
+		if (userID == profileID)
+                              ^
+d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\Follow.java:38: cannot find symbol
+symbol  : variable addQuery
+location: class uk.ac.dundee.computing.richardgoodman.banter.Follow
+				addQuery = "DELETE FROM friendship WHERE PosterID = ? AND ReaderID = ? ";
+                                ^
+d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\Follow.java:39: cannot find symbol
+symbol  : variable addQuery
+location: class uk.ac.dundee.computing.richardgoodman.banter.Follow
+				pstmt = MyConnection.prepareStatement( addQuery );
+                                                                       ^
+d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\Follow.java:47: cannot find symbol
+symbol  : variable addQuery
+location: class uk.ac.dundee.computing.richardgoodman.banter.Follow
+				addQuery = "INSERT INTO friendship WHERE PosterID = ? AND ReaderID = ? ";
+                                ^
+d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\Follow.java:48: cannot find symbol
+symbol  : variable addQuery
+location: class uk.ac.dundee.computing.richardgoodman.banter.Follow
+				pstmt = MyConnection.prepareStatement( addQuery );
+                                                                       ^
+d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\Follow.java:58: cannot find symbol
+symbol  : variable friendshipBean
+location: class uk.ac.dundee.computing.richardgoodman.banter.Follow
+			friendshipBean.setPageTitle("Who is following you");
+                        ^
+d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\Follow.java:60: cannot find symbol
+symbol  : variable friendshipBean
+location: class uk.ac.dundee.computing.richardgoodman.banter.Follow
+			req.getSession().setAttribute("friendshipBean", friendshipBean);
+                                                                        ^
+8 errors
+[08:36:58.782] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[08:36:58.782] resin-file: destroy
+[08:36:58.782] Login: destroy
+[08:36:58.782] Newsfeed: destroy
+[08:36:58.782] Followers: destroy
+[08:37:00.610] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[08:37:41.454] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[08:44:44.045] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[08:44:45.388] Login: init
+[08:44:47.123] Newsfeed: init
+[08:44:47.232] resin-file: init
+[08:44:48.623] Followers: init
+[08:44:48.717] Compiling _jsp/_follow__jsp.java
+[08:44:58.560] Following: init
+[08:56:24.696] Compiling uk/ac/dundee/computing/richardgoodman/banter/Delete.java
+com.caucho.jsp.JspParseException: d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\Delete.java:43: variable TweetID might not have been initialized
+			pstmt.setInt( 2, TweetID);
+                                         ^
+1 error
+[08:56:45.946] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[08:56:45.946] resin-file: destroy
+[08:56:45.946] Login: destroy
+[08:56:45.946] Newsfeed: destroy
+[08:56:45.946] Followers: destroy
+[08:56:45.946] Following: destroy
+[08:56:46.087] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[08:57:57.977] Compiling uk/ac/dundee/computing/richardgoodman/banter/Delete.java
+[08:57:58.337] Compiling _jsp/_index__jsp.java
+[08:57:58.837] Login: init
+[08:58:09.618] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[08:58:09.618] Login: destroy
+[08:58:09.743] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[08:58:09.743] Login: init
+[08:58:10.133] Newsfeed: init
+[08:58:10.336] resin-file: init
+[08:58:42.086] Delete: init
+/richardgoodman/Delete
+[08:58:42.149] java.lang.IllegalStateException: forward() not allowed after buffer has committed.
+[08:58:42.149] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:139)
+[08:58:42.149] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:106)
+[08:58:42.149] 	at uk.ac.dundee.computing.richardgoodman.banter.Delete.doGet(Delete.java:64)
+[08:58:42.149] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:115)
+[08:58:42.149] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:92)
+[08:58:42.149] 	at com.caucho.server.dispatch.ServletFilterChain.doFilter(ServletFilterChain.java:106)
+[08:58:42.149] 	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:173)
+[08:58:42.149] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[08:58:42.149] 	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:274)
+[08:58:42.149] 	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:511)
+[08:58:42.149] 	at com.caucho.util.ThreadPool.runTasks(ThreadPool.java:516)
+[08:58:42.149] 	at com.caucho.util.ThreadPool.run(ThreadPool.java:442)
+[08:58:42.149] 	at java.lang.Thread.run(Thread.java:595)
+[08:58:42.180] java.lang.IllegalStateException: forward() not allowed after buffer has committed.
+[08:58:42.180] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:139)
+[08:58:42.180] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:106)
+[08:58:42.180] 	at uk.ac.dundee.computing.richardgoodman.banter.Newsfeed.doGet(Newsfeed.java:46)
+[08:58:42.180] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:115)
+[08:58:42.180] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:92)
+[08:58:42.180] 	at com.caucho.server.dispatch.ServletFilterChain.doFilter(ServletFilterChain.java:106)
+[08:58:42.180] 	at com.caucho.server.webapp.DispatchFilterChain.doFilter(DispatchFilterChain.java:115)
+[08:58:42.180] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[08:58:42.180] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:277)
+[08:58:42.180] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:106)
+[08:58:42.180] 	at uk.ac.dundee.computing.richardgoodman.banter.Delete.doGet(Delete.java:64)
+[08:58:42.180] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:115)
+[08:58:42.180] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:92)
+[08:58:42.180] 	at com.caucho.server.dispatch.ServletFilterChain.doFilter(ServletFilterChain.java:106)
+[08:58:42.180] 	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:173)
+[08:58:42.180] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[08:58:42.180] 	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:274)
+[08:58:42.180] 	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:511)
+[08:58:42.180] 	at com.caucho.util.ThreadPool.runTasks(ThreadPool.java:516)
+[08:58:42.180] 	at com.caucho.util.ThreadPool.run(ThreadPool.java:442)
+[08:58:42.180] 	at java.lang.Thread.run(Thread.java:595)
+/richardgoodman/Delete
+[08:58:53.149] java.lang.IllegalStateException: forward() not allowed after buffer has committed.
+[08:58:53.149] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:139)
+[08:58:53.149] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:106)
+[08:58:53.149] 	at uk.ac.dundee.computing.richardgoodman.banter.Delete.doGet(Delete.java:64)
+[08:58:53.149] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:115)
+[08:58:53.149] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:92)
+[08:58:53.149] 	at com.caucho.server.dispatch.ServletFilterChain.doFilter(ServletFilterChain.java:106)
+[08:58:53.149] 	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:173)
+[08:58:53.149] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[08:58:53.149] 	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:274)
+[08:58:53.149] 	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:511)
+[08:58:53.149] 	at com.caucho.util.ThreadPool.runTasks(ThreadPool.java:516)
+[08:58:53.149] 	at com.caucho.util.ThreadPool.run(ThreadPool.java:442)
+[08:58:53.149] 	at java.lang.Thread.run(Thread.java:595)
+[08:58:53.164] java.lang.IllegalStateException: forward() not allowed after buffer has committed.
+[08:58:53.164] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:139)
+[08:58:53.164] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:106)
+[08:58:53.164] 	at uk.ac.dundee.computing.richardgoodman.banter.Newsfeed.doGet(Newsfeed.java:46)
+[08:58:53.164] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:115)
+[08:58:53.164] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:92)
+[08:58:53.164] 	at com.caucho.server.dispatch.ServletFilterChain.doFilter(ServletFilterChain.java:106)
+[08:58:53.164] 	at com.caucho.server.webapp.DispatchFilterChain.doFilter(DispatchFilterChain.java:115)
+[08:58:53.164] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[08:58:53.164] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:277)
+[08:58:53.164] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:106)
+[08:58:53.164] 	at uk.ac.dundee.computing.richardgoodman.banter.Delete.doGet(Delete.java:64)
+[08:58:53.164] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:115)
+[08:58:53.164] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:92)
+[08:58:53.164] 	at com.caucho.server.dispatch.ServletFilterChain.doFilter(ServletFilterChain.java:106)
+[08:58:53.164] 	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:173)
+[08:58:53.164] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[08:58:53.164] 	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:274)
+[08:58:53.164] 	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:511)
+[08:58:53.164] 	at com.caucho.util.ThreadPool.runTasks(ThreadPool.java:516)
+[08:58:53.164] 	at com.caucho.util.ThreadPool.run(ThreadPool.java:442)
+[08:58:53.164] 	at java.lang.Thread.run(Thread.java:595)
+/richardgoodman/Delete/1
+/richardgoodman/Delete/Newsfeed
+java.lang.NumberFormatException: For input string: "Newsfeed"
+[09:03:04.506] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[09:03:04.506] resin-file: destroy
+[09:03:04.506] Login: destroy
+[09:03:04.506] Newsfeed: destroy
+[09:03:04.506] Delete: destroy
+[09:03:05.178] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[09:03:05.256] Login: init
+[09:03:09.631] Newsfeed: init
+[09:03:09.835] resin-file: init
+[09:03:15.881] Delete: init
+java.lang.IllegalStateException: forward() not allowed after buffer has committed.
+java.lang.NumberFormatException: For input string: "Newsfeed"
+[09:19:33.391] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[09:19:33.391] resin-file: destroy
+[09:19:33.406] Login: destroy
+[09:19:33.406] Newsfeed: destroy
+[09:19:33.406] Delete: destroy
+[09:19:34.109] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[09:19:34.172] Login: init
+[09:19:36.078] Newsfeed: init
+[09:19:36.266] resin-file: init
+[09:19:45.172] Profile: init
+/richardgoodman/Profile/scragsy
+/richardgoodman/Profile/Scragsy
+[09:19:53.516] Compose: init
+[09:19:53.719] Compiling _jsp/_compose__jsp.java
+[09:21:33.812] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[09:21:33.827] resin-file: destroy
+[09:21:33.827] Login: destroy
+[09:21:33.827] Compose: destroy
+[09:21:33.827] Newsfeed: destroy
+[09:21:33.827] Profile: destroy
+[09:23:39.467] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[09:23:42.092] Login: init
+[09:23:43.920] Newsfeed: init
+[09:23:44.045] resin-file: init
+[09:23:46.827] Compose: init
+[09:38:12.821] Logout: init
+[11:20:18.438] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[11:20:18.438] resin-file: destroy
+[11:20:18.438] Login: destroy
+[11:20:18.438] Logout: destroy
+[11:20:18.438] Compose: destroy
+[11:20:18.438] Newsfeed: destroy
+[11:20:19.672] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[11:20:19.719] Login: init
+[11:20:22.329] Newsfeed: init
+[11:20:22.438] resin-file: init
+[11:21:03.688] Compose: init
+[11:26:33.983] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[11:26:33.983] resin-file: destroy
+[11:26:33.983] Login: destroy
+[11:26:33.983] Compose: destroy
+[11:26:33.983] Newsfeed: destroy
+[11:50:38.567] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[11:52:26.660] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[11:52:42.566] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[11:52:42.598] Login: init
+[11:52:42.660] resin-file: init
+com.mysql.jdbc.exceptions.MySQLNonTransientConnectionException: Too many connections
+com.mysql.jdbc.exceptions.MySQLNonTransientConnectionException: Too many connections
+[14:22:35.665] Newsfeed: init
+[14:22:56.009] Compose: init
+[14:36:08.730] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[14:36:08.840] resin-file: destroy
+[14:36:08.980] Login: destroy
+[14:36:09.058] Compose: destroy
+[14:36:09.183] Newsfeed: destroy
+[14:41:36.275] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[14:49:44.616] Compiling _jsp/_index__jsp.java
+[14:49:45.319] Login: init
+[14:49:45.459] resin-file: init
+[15:41:56.600] Newsfeed: init
+[15:42:13.037] Delete: init
+/richardgoodman/Delete/54
+/richardgoodman/Delete/Newsfeed
+java.lang.NumberFormatException: For input string: "Newsfeed"
+/richardgoodman/Delete/25
+/richardgoodman/Delete/Newsfeed
+java.lang.NumberFormatException: For input string: "Newsfeed"
+[15:57:06.891] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[15:57:06.891] resin-file: destroy
+[15:57:06.891] Login: destroy
+[15:57:06.891] Newsfeed: destroy
+[15:57:06.891] Delete: destroy
+[15:57:40.469] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[15:57:40.531] Login: init
+[15:57:42.125] Newsfeed: init
+[15:57:42.234] resin-file: init
+[15:57:50.188] Delete: init
+/richardgoodman/Delete/27
+[15:58:22.359] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[15:58:22.359] resin-file: destroy
+[15:58:22.359] Login: destroy
+[15:58:22.359] Newsfeed: destroy
+[15:58:22.359] Delete: destroy
+[15:58:23.047] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[15:58:23.094] Login: init
+[15:58:24.890] Newsfeed: init
+[15:58:25.015] resin-file: init
+[15:58:31.687] Delete: init
+/richardgoodman/Delete/18
+/richardgoodman/Delete/css/style.css
+[15:58:31.797] java.lang.NumberFormatException: For input string: "css/style.css"
+[15:58:31.797] 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:48)
+[15:58:31.797] 	at java.lang.Integer.parseInt(Integer.java:447)
+[15:58:31.797] 	at java.lang.Integer.parseInt(Integer.java:497)
+[15:58:31.797] 	at uk.ac.dundee.computing.richardgoodman.banter.Delete.doGet(Delete.java:25)
+[15:58:31.797] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:115)
+[15:58:31.797] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:92)
+[15:58:31.797] 	at com.caucho.server.dispatch.ServletFilterChain.doFilter(ServletFilterChain.java:106)
+[15:58:31.797] 	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:173)
+[15:58:31.797] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[15:58:31.797] 	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:274)
+[15:58:31.797] 	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:511)
+[15:58:31.797] 	at com.caucho.util.ThreadPool.runTasks(ThreadPool.java:516)
+[15:58:31.797] 	at com.caucho.util.ThreadPool.run(ThreadPool.java:442)
+[15:58:31.797] 	at java.lang.Thread.run(Thread.java:595)
+/richardgoodman/Delete/images/banter%20logo%20(2).png
+[15:58:31.812] java.lang.NumberFormatException: For input string: "images/banter%20logo%20(2).png"
+[15:58:31.812] 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:48)
+[15:58:31.812] 	at java.lang.Integer.parseInt(Integer.java:447)
+[15:58:31.812] 	at java.lang.Integer.parseInt(Integer.java:497)
+[15:58:31.812] 	at uk.ac.dundee.computing.richardgoodman.banter.Delete.doGet(Delete.java:25)
+[15:58:31.812] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:115)
+[15:58:31.812] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:92)
+[15:58:31.812] 	at com.caucho.server.dispatch.ServletFilterChain.doFilter(ServletFilterChain.java:106)
+[15:58:31.812] 	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:173)
+[15:58:31.812] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[15:58:31.812] 	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:274)
+[15:58:31.812] 	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:511)
+[15:58:31.812] 	at com.caucho.util.ThreadPool.runTasks(ThreadPool.java:516)
+[15:58:31.812] 	at com.caucho.util.ThreadPool.run(ThreadPool.java:442)
+[15:58:31.812] 	at java.lang.Thread.run(Thread.java:595)
+/richardgoodman/Delete/Scragsy
+[15:58:31.812] java.lang.NumberFormatException: For input string: "Scragsy"
+[15:58:31.812] 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:48)
+[15:58:31.812] 	at java.lang.Integer.parseInt(Integer.java:447)
+[15:58:31.812] 	at java.lang.Integer.parseInt(Integer.java:497)
+[15:58:31.812] 	at uk.ac.dundee.computing.richardgoodman.banter.Delete.doGet(Delete.java:25)
+[15:58:31.812] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:115)
+[15:58:31.812] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:92)
+[15:58:31.812] 	at com.caucho.server.dispatch.ServletFilterChain.doFilter(ServletFilterChain.java:106)
+[15:58:31.812] 	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:173)
+[15:58:31.812] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[15:58:31.812] 	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:274)
+[15:58:31.812] 	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:511)
+[15:58:31.812] 	at com.caucho.util.ThreadPool.runTasks(ThreadPool.java:516)
+[15:58:31.812] 	at com.caucho.util.ThreadPool.run(ThreadPool.java:442)
+[15:58:31.812] 	at java.lang.Thread.run(Thread.java:595)
+/richardgoodman/Delete/images/B.ico
+[15:58:31.812] java.lang.NumberFormatException: For input string: "images/B.ico"
+[15:58:31.812] 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:48)
+[15:58:31.812] 	at java.lang.Integer.parseInt(Integer.java:447)
+[15:58:31.812] 	at java.lang.Integer.parseInt(Integer.java:497)
+[15:58:31.812] 	at uk.ac.dundee.computing.richardgoodman.banter.Delete.doGet(Delete.java:25)
+[15:58:31.812] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:115)
+[15:58:31.812] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:92)
+[15:58:31.812] 	at com.caucho.server.dispatch.ServletFilterChain.doFilter(ServletFilterChain.java:106)
+[15:58:31.812] 	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:173)
+[15:58:31.812] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[15:58:31.812] 	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:274)
+[15:58:31.812] 	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:511)
+[15:58:31.812] 	at com.caucho.util.ThreadPool.runTasks(ThreadPool.java:516)
+[15:58:31.812] 	at com.caucho.util.ThreadPool.run(ThreadPool.java:442)
+[15:58:31.812] 	at java.lang.Thread.run(Thread.java:595)
+/richardgoodman/Delete/images/B.ico
+[15:58:31.844] java.lang.NumberFormatException: For input string: "images/B.ico"
+[15:58:31.844] 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:48)
+[15:58:31.844] 	at java.lang.Integer.parseInt(Integer.java:447)
+[15:58:31.844] 	at java.lang.Integer.parseInt(Integer.java:497)
+[15:58:31.844] 	at uk.ac.dundee.computing.richardgoodman.banter.Delete.doGet(Delete.java:25)
+[15:58:31.844] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:115)
+[15:58:31.844] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:92)
+[15:58:31.844] 	at com.caucho.server.dispatch.ServletFilterChain.doFilter(ServletFilterChain.java:106)
+[15:58:31.844] 	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:173)
+[15:58:31.844] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[15:58:31.844] 	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:274)
+[15:58:31.844] 	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:511)
+[15:58:31.844] 	at com.caucho.util.ThreadPool.runTasks(ThreadPool.java:516)
+[15:58:31.844] 	at com.caucho.util.ThreadPool.run(ThreadPool.java:442)
+[15:58:31.844] 	at java.lang.Thread.run(Thread.java:595)
+/richardgoodman/Delete/images/B.ico
+[15:58:31.859] java.lang.NumberFormatException: For input string: "images/B.ico"
+[15:58:31.859] 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:48)
+[15:58:31.859] 	at java.lang.Integer.parseInt(Integer.java:447)
+[15:58:31.859] 	at java.lang.Integer.parseInt(Integer.java:497)
+[15:58:31.859] 	at uk.ac.dundee.computing.richardgoodman.banter.Delete.doGet(Delete.java:25)
+[15:58:31.859] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:115)
+[15:58:31.859] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:92)
+[15:58:31.859] 	at com.caucho.server.dispatch.ServletFilterChain.doFilter(ServletFilterChain.java:106)
+[15:58:31.859] 	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:173)
+[15:58:31.859] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[15:58:31.859] 	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:274)
+[15:58:31.859] 	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:511)
+[15:58:31.859] 	at com.caucho.util.ThreadPool.runTasks(ThreadPool.java:516)
+[15:58:31.859] 	at com.caucho.util.ThreadPool.run(ThreadPool.java:442)
+[15:58:31.859] 	at java.lang.Thread.run(Thread.java:595)
+[15:59:23.046] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[15:59:23.046] resin-file: destroy
+[15:59:23.046] Login: destroy
+[15:59:23.046] Newsfeed: destroy
+[15:59:23.046] Delete: destroy
+[15:59:23.734] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[15:59:24.140] Login: init
+[15:59:27.515] Newsfeed: init
+[15:59:27.640] resin-file: init
+[15:59:36.953] Delete: init
+/richardgoodman/Delete/15
+[16:00:23.562] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[16:00:23.562] resin-file: destroy
+[16:00:23.562] Login: destroy
+[16:00:23.562] Newsfeed: destroy
+[16:00:23.562] Delete: destroy
+[16:00:24.140] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[16:00:27.171] Login: init
+[16:00:33.640] Newsfeed: init
+[16:00:33.765] resin-file: init
+[16:00:42.124] Delete: init
+/richardgoodman/Delete/9
+/richardgoodman/Delete/24
+[16:07:03.043] Compiling _jsp/_index__jsp.java
+[16:07:03.059] /index.jsp:70: ')' expected
+[16:07:03.059] 										{
+[16:07:03.059]                                                                                 ^
+[16:07:03.059] 1 error
+[16:07:27.262] Compiling _jsp/_index__jsp.java
+[16:08:48.480] Compiling _jsp/_index__jsp.java
+[16:09:24.480] Compiling _jsp/_index__jsp.java
+[16:13:13.572] Compiling _jsp/_index__jsp.java
+[16:13:40.572] Compiling _jsp/_index__jsp.java
+[16:14:10.509] Profile: init
+/richardgoodman/Profile
+/richardgoodman/Profile
+[16:19:09.945] java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+[16:19:09.945] 	at java.util.ArrayList.RangeCheck(ArrayList.java:546)
+[16:19:09.945] 	at java.util.ArrayList.get(ArrayList.java:321)
+[16:19:09.945] 	at uk.ac.dundee.computing.richardgoodman.banter.TweetBean.getUsernames(TweetBean.java:48)
+[16:19:09.945] 	at _jsp._index__jsp._jspService(_index__jsp.java:73)
+[16:19:09.945] 	at com.caucho.jsp.JavaPage.service(JavaPage.java:60)
+[16:19:09.945] 	at com.caucho.jsp.Page.pageservice(Page.java:570)
+[16:19:09.945] 	at com.caucho.server.dispatch.PageFilterChain.doFilter(PageFilterChain.java:179)
+[16:19:09.945] 	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:173)
+[16:19:09.945] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[16:19:09.945] 	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:274)
+[16:19:09.945] 	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:511)
+[16:19:09.945] 	at com.caucho.util.ThreadPool.runTasks(ThreadPool.java:516)
+[16:19:09.945] 	at com.caucho.util.ThreadPool.run(ThreadPool.java:442)
+[16:19:09.945] 	at java.lang.Thread.run(Thread.java:595)
+[16:19:13.789] java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+[16:19:13.789] 	at java.util.ArrayList.RangeCheck(ArrayList.java:546)
+[16:19:13.789] 	at java.util.ArrayList.get(ArrayList.java:321)
+[16:19:13.789] 	at uk.ac.dundee.computing.richardgoodman.banter.TweetBean.getUsernames(TweetBean.java:48)
+[16:19:13.789] 	at _jsp._index__jsp._jspService(_index__jsp.java:73)
+[16:19:13.789] 	at com.caucho.jsp.JavaPage.service(JavaPage.java:60)
+[16:19:13.789] 	at com.caucho.jsp.Page.pageservice(Page.java:570)
+[16:19:13.789] 	at com.caucho.server.dispatch.PageFilterChain.doFilter(PageFilterChain.java:179)
+[16:19:13.789] 	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:173)
+[16:19:13.789] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[16:19:13.789] 	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:274)
+[16:19:13.789] 	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:511)
+[16:19:13.789] 	at com.caucho.util.ThreadPool.runTasks(ThreadPool.java:516)
+[16:19:13.789] 	at com.caucho.util.ThreadPool.run(ThreadPool.java:442)
+[16:19:13.789] 	at java.lang.Thread.run(Thread.java:595)
+[16:19:26.351] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[16:19:26.351] resin-file: destroy
+[16:19:26.351] Login: destroy
+[16:19:26.351] Newsfeed: destroy
+[16:19:26.351] Profile: destroy
+[16:19:26.351] Delete: destroy
+[16:19:27.007] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[16:19:34.695] Login: init
+[16:19:34.742] resin-file: init
+[16:19:37.804] Newsfeed: init
+[16:19:42.195] Profile: init
+/richardgoodman/Profile
+[16:19:42.304] Compiling _jsp/_profile__jsp.java
+[16:25:58.130] java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+[16:25:58.130] 	at java.util.ArrayList.RangeCheck(ArrayList.java:546)
+[16:25:58.130] 	at java.util.ArrayList.get(ArrayList.java:321)
+[16:25:58.130] 	at uk.ac.dundee.computing.richardgoodman.banter.TweetBean.getUsernames(TweetBean.java:48)
+[16:25:58.130] 	at _jsp._index__jsp._jspService(_index__jsp.java:73)
+[16:25:58.130] 	at com.caucho.jsp.JavaPage.service(JavaPage.java:60)
+[16:25:58.130] 	at com.caucho.jsp.Page.pageservice(Page.java:570)
+[16:25:58.130] 	at com.caucho.server.dispatch.PageFilterChain.doFilter(PageFilterChain.java:179)
+[16:25:58.130] 	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:173)
+[16:25:58.130] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[16:25:58.130] 	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:274)
+[16:25:58.130] 	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:511)
+[16:25:58.130] 	at com.caucho.util.ThreadPool.runTasks(ThreadPool.java:516)
+[16:25:58.130] 	at com.caucho.util.ThreadPool.run(ThreadPool.java:442)
+[16:25:58.130] 	at java.lang.Thread.run(Thread.java:595)
+[16:26:00.599] java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+[16:26:00.599] 	at java.util.ArrayList.RangeCheck(ArrayList.java:546)
+[16:26:00.599] 	at java.util.ArrayList.get(ArrayList.java:321)
+[16:26:00.599] 	at uk.ac.dundee.computing.richardgoodman.banter.TweetBean.getUsernames(TweetBean.java:48)
+[16:26:00.599] 	at _jsp._index__jsp._jspService(_index__jsp.java:73)
+[16:26:00.599] 	at com.caucho.jsp.JavaPage.service(JavaPage.java:60)
+[16:26:00.599] 	at com.caucho.jsp.Page.pageservice(Page.java:570)
+[16:26:00.599] 	at com.caucho.server.dispatch.PageFilterChain.doFilter(PageFilterChain.java:179)
+[16:26:00.599] 	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:173)
+[16:26:00.599] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[16:26:00.599] 	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:274)
+[16:26:00.599] 	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:511)
+[16:26:00.599] 	at com.caucho.util.ThreadPool.runTasks(ThreadPool.java:516)
+[16:26:00.599] 	at com.caucho.util.ThreadPool.run(ThreadPool.java:442)
+[16:26:00.599] 	at java.lang.Thread.run(Thread.java:595)
+[16:26:10.895] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[16:26:10.895] resin-file: destroy
+[16:26:10.895] Login: destroy
+[16:26:10.895] Newsfeed: destroy
+[16:26:10.895] Profile: destroy
+[16:26:11.536] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[16:26:11.583] Login: init
+[16:26:11.630] resin-file: init
+[16:26:13.020] Newsfeed: init
+[16:26:15.833] Profile: init
+/richardgoodman/Profile
+[16:26:15.895] Compiling _jsp/_profile__jsp.java
+/richardgoodman/Profile
+[17:01:05.585] Followers: init
+[17:01:17.351] Following: init
+/richardgoodman/Profile
+[17:27:01.310] Compiling uk/ac/dundee/computing/richardgoodman/banter/Profile.java
+[17:27:01.310] Compiling uk/ac/dundee/computing/richardgoodman/banter/ProfileBean.java
+[17:27:01.638] Compiling _jsp/_profile__jsp.java
+[17:27:19.653] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[17:27:19.653] resin-file: destroy
+[17:27:19.653] Login: destroy
+[17:27:19.653] Newsfeed: destroy
+[17:27:19.653] Profile: destroy
+[17:27:19.653] Followers: destroy
+[17:27:19.653] Following: destroy
+[17:27:19.778] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[17:31:42.714] Profile: init
+/richardgoodman/Profile
+[17:31:42.730] java.lang.NullPointerException
+[17:31:42.730] 	at uk.ac.dundee.computing.richardgoodman.banter.Profile.doGet(Profile.java:39)
+[17:31:42.730] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:115)
+[17:31:42.730] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:92)
+[17:31:42.730] 	at com.caucho.server.dispatch.ServletFilterChain.doFilter(ServletFilterChain.java:106)
+[17:31:42.730] 	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:173)
+[17:31:42.730] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[17:31:42.730] 	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:274)
+[17:31:42.730] 	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:511)
+[17:31:42.730] 	at com.caucho.util.ThreadPool.runTasks(ThreadPool.java:516)
+[17:31:42.730] 	at com.caucho.util.ThreadPool.run(ThreadPool.java:442)
+[17:31:42.730] 	at java.lang.Thread.run(Thread.java:595)
+[17:31:46.042] Login: init
+[17:32:11.245] Newsfeed: init
+[17:32:11.354] resin-file: init
+/richardgoodman/Profile
+[17:32:17.058] Compiling _jsp/_profile__jsp.java
+/richardgoodman/Profile
+/richardgoodman/Profile
+/richardgoodman/Profile
+/richardgoodman/Profile
+/richardgoodman/Profile
+/richardgoodman/Profile
+/richardgoodman/Profile
+/richardgoodman/Profile
+com.mysql.jdbc.exceptions.MySQLNonTransientConnectionException: Too many connections
+[17:59:03.516] java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+[17:59:03.516] 	at java.util.ArrayList.RangeCheck(ArrayList.java:546)
+[17:59:03.516] 	at java.util.ArrayList.get(ArrayList.java:321)
+[17:59:03.516] 	at uk.ac.dundee.computing.richardgoodman.banter.TweetBean.getUsernames(TweetBean.java:48)
+[17:59:03.516] 	at _jsp._index__jsp._jspService(_index__jsp.java:73)
+[17:59:03.516] 	at com.caucho.jsp.JavaPage.service(JavaPage.java:60)
+[17:59:03.516] 	at com.caucho.jsp.Page.pageservice(Page.java:570)
+[17:59:03.516] 	at com.caucho.server.dispatch.PageFilterChain.doFilter(PageFilterChain.java:179)
+[17:59:03.516] 	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:173)
+[17:59:03.516] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[17:59:03.516] 	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:274)
+[17:59:03.516] 	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:511)
+[17:59:03.516] 	at com.caucho.util.ThreadPool.runTasks(ThreadPool.java:516)
+[17:59:03.516] 	at com.caucho.util.ThreadPool.run(ThreadPool.java:442)
+[17:59:03.516] 	at java.lang.Thread.run(Thread.java:595)
+[17:59:06.813] java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+[17:59:06.813] 	at java.util.ArrayList.RangeCheck(ArrayList.java:546)
+[17:59:06.813] 	at java.util.ArrayList.get(ArrayList.java:321)
+[17:59:06.813] 	at uk.ac.dundee.computing.richardgoodman.banter.TweetBean.getUsernames(TweetBean.java:48)
+[17:59:06.813] 	at _jsp._index__jsp._jspService(_index__jsp.java:73)
+[17:59:06.813] 	at com.caucho.jsp.JavaPage.service(JavaPage.java:60)
+[17:59:06.813] 	at com.caucho.jsp.Page.pageservice(Page.java:570)
+[17:59:06.813] 	at com.caucho.server.dispatch.PageFilterChain.doFilter(PageFilterChain.java:179)
+[17:59:06.813] 	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:173)
+[17:59:06.813] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[17:59:06.813] 	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:274)
+[17:59:06.813] 	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:511)
+[17:59:06.813] 	at com.caucho.util.ThreadPool.runTasks(ThreadPool.java:516)
+[17:59:06.813] 	at com.caucho.util.ThreadPool.run(ThreadPool.java:442)
+[17:59:06.813] 	at java.lang.Thread.run(Thread.java:595)
+[17:59:08.188] java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+[17:59:08.188] 	at java.util.ArrayList.RangeCheck(ArrayList.java:546)
+[17:59:08.188] 	at java.util.ArrayList.get(ArrayList.java:321)
+[17:59:08.188] 	at uk.ac.dundee.computing.richardgoodman.banter.TweetBean.getUsernames(TweetBean.java:48)
+[17:59:08.188] 	at _jsp._index__jsp._jspService(_index__jsp.java:73)
+[17:59:08.188] 	at com.caucho.jsp.JavaPage.service(JavaPage.java:60)
+[17:59:08.188] 	at com.caucho.jsp.Page.pageservice(Page.java:570)
+[17:59:08.188] 	at com.caucho.server.dispatch.PageFilterChain.doFilter(PageFilterChain.java:179)
+[17:59:08.188] 	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:173)
+[17:59:08.188] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[17:59:08.188] 	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:274)
+[17:59:08.188] 	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:511)
+[17:59:08.188] 	at com.caucho.util.ThreadPool.runTasks(ThreadPool.java:516)
+[17:59:08.188] 	at com.caucho.util.ThreadPool.run(ThreadPool.java:442)
+[17:59:08.188] 	at java.lang.Thread.run(Thread.java:595)
+[17:59:25.032] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[17:59:25.032] resin-file: destroy
+[17:59:25.032] Login: destroy
+[17:59:25.032] Newsfeed: destroy
+[17:59:25.032] Profile: destroy
+[17:59:25.703] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[17:59:29.422] Login: init
+[17:59:29.469] resin-file: init
+com.mysql.jdbc.exceptions.MySQLNonTransientConnectionException: Too many connections
+com.mysql.jdbc.exceptions.MySQLNonTransientConnectionException: Too many connections
+[18:27:01.708] Newsfeed: init
+[18:34:59.315] Logout: init
+[18:35:18.580] Profile: init
+/richardgoodman/Profile
+/richardgoodman/Profilenull
+/richardgoodman/Profile/Gorman
+/richardgoodman/Profile/Goodman
+/richardgoodman/Profile/scragsy
+/richardgoodman/Profile/Profilenull
+/richardgoodman/Profile/null
+/richardgoodman/Profile/Profilenull
+/richardgoodman/Profile/null
+/richardgoodman/Profile/Profilenull
+/richardgoodman/Profile/null
+[18:40:17.422] Followers: init
+[18:40:20.531] Following: init
+[18:40:53.656] Compiling _jsp/_follow__jsp.java
+[18:42:14.296] Compiling _jsp/_follow__jsp.java
+[18:42:32.921] Compiling _jsp/_index__jsp.java
+[18:51:09.465] Compiling _jsp/_index__jsp.java
+[18:53:13.980] Compiling _jsp/_index__jsp.java
+/richardgoodman/Profile
+[18:55:11.323] Compiling _jsp/_profile__jsp.java
+[19:08:21.614] Compiling _jsp/_login__jsp.java
+[19:14:20.925] Compiling _jsp/_login__jsp.java
+[19:14:33.003] Create: init
+[19:14:33.112] Compiling _jsp/_createaccount__jsp.java
+[19:20:55.000] ManageProfile: init
+[19:20:55.125] Compiling _jsp/_manageprofile__jsp.java
+[19:20:55.860] Compose: init
+[19:20:56.000] Compiling _jsp/_compose__jsp.java

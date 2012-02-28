@@ -1,0 +1,1029 @@
+[13:28:23.846] Compiling _jsp/_displayurl__jsp.java
+[14:37:43.866] Compiling _jsp/_displayurl__jsp.java
+[14:37:46.710] TestURI: init
+/richardgoodman/TestURI/arequest/3456
+/richardgoodman/TestURI/arequest/34444444
+/richardgoodman/TestURI/arequest/2222
+/richardgoodman/TestURI/arequest/1234567890
+/richardgoodman/TestURI/arequest/555
+/richardgoodman/TestURI/arequest/555
+[14:38:00.382] /DisplayURL.jsp:2: Can't find class `uk.ac.dundee.computing.richardgoodman.testbean.URLStorage'
+[14:39:08.038] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[14:39:08.038] directory: destroy
+[14:39:08.038] resin-file: destroy
+[14:39:08.038] TestURI: destroy
+[12:52:11.960] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[12:52:12.054] java.lang.NoClassDefFoundError: uk/ac/dundee/computing/aec/testbean/URLStorage
+[12:52:12.054] 	at java.lang.Class.getDeclaredConstructors0(Native Method)
+[12:52:12.054] 	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2357)
+[12:52:12.054] 	at java.lang.Class.getConstructor0(Class.java:2671)
+[12:52:12.054] 	at java.lang.Class.newInstance0(Class.java:321)
+[12:52:12.054] 	at java.lang.Class.newInstance(Class.java:303)
+[12:52:12.054] 	at com.caucho.jsp.JspManager.preload(JspManager.java:302)
+[12:52:12.054] 	at com.caucho.jsp.JspManager.compile(JspManager.java:210)
+[12:52:12.054] 	at com.caucho.jsp.JspManager.createPage(JspManager.java:177)
+[12:52:12.054] 	at com.caucho.jsp.JspManager.createPage(JspManager.java:157)
+[12:52:12.054] 	at com.caucho.jsp.PageManager.getPage(PageManager.java:248)
+[12:52:12.054] 	at com.caucho.jsp.PageManager.getPage(PageManager.java:166)
+[12:52:12.054] 	at com.caucho.jsp.QServlet.getSubPage(QServlet.java:292)
+[12:52:12.054] 	at com.caucho.jsp.QServlet.getPage(QServlet.java:210)
+[12:52:12.054] 	at com.caucho.server.dispatch.PageFilterChain.compilePage(PageFilterChain.java:206)
+[12:52:12.054] 	at com.caucho.server.dispatch.PageFilterChain.doFilter(PageFilterChain.java:133)
+[12:52:12.054] 	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:173)
+[12:52:12.054] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[12:52:12.054] 	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:274)
+[12:52:12.054] 	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:511)
+[12:52:12.054] 	at com.caucho.util.ThreadPool.runTasks(ThreadPool.java:516)
+[12:52:12.054] 	at com.caucho.util.ThreadPool.run(ThreadPool.java:442)
+[12:52:12.054] 	at java.lang.Thread.run(Thread.java:595)
+[12:52:12.101] Compiling _jsp/_displayurl__jsp.java
+[12:52:14.351] TestURI: init
+/richardgoodman/TestURI/arequest/3456
+/richardgoodman/TestURI/arequest/3456
+/richardgoodman/TestURI/arequest/2222
+/richardgoodman/TestURI/arequest/34444444
+/richardgoodman/TestURI/arequest/2222
+/richardgoodman/TestURI/arequest/1234567890
+/richardgoodman/TestURI/arequest/555
+[12:52:22.429] Compiling _jsp/_banter__jsp.java
+[12:52:22.945] resin-file: init
+[12:53:30.460] directory: init
+[12:53:38.679] Compiling _jsp/_logintest/_login__jsp.java
+[11:58:18.499] /LoginTest/loginbean.jsp:1: `Java' is not supported as a JSP scripting language.
+[11:59:57.421] Compiling _jsp/_index__jsp.java
+[12:00:15.077] Compiling _jsp/_index__jsp.java
+[12:00:48.014] Compiling _jsp/_index__jsp.java
+[12:01:16.608] Compiling _jsp/_index__jsp.java
+[12:17:58.570] Compiling uk/ac/dundee/computing/richardgoodman/banter/login.java
+[12:17:58.570] Compiling uk/ac/dundee/computing/richardgoodman/banter/loginbean.java
+[12:17:58.570] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\login.java:36: unclosed string literal
+[12:17:58.570] 				strQuery="select * from userregister where 
+[12:17:58.570]                                          ^
+[12:17:58.570] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\login.java:37: unclosed character literal
+[12:17:58.570] 				username='"+username+"' and  password='"+userpass+"'";
+[12:17:58.570]                                          ^
+[12:17:58.570] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\loginbean.java:1: <identifier> expected
+[12:17:58.570] package package uk.ac.dundee.computing.richardgoodman.banter;
+[12:17:58.570]         ^
+[12:17:58.570] 3 errors
+[12:18:14.414] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[12:18:14.414] directory: destroy
+[12:18:14.414] resin-file: destroy
+[12:18:14.414] TestURI: destroy
+[12:18:14.976] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[12:36:34.469] Compiling uk/ac/dundee/computing/richardgoodman/banter/login.java
+[12:36:34.469] Compiling uk/ac/dundee/computing/richardgoodman/banter/loginbean.java
+[12:36:34.485] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\login.java:36: unclosed string literal
+[12:36:34.485] 				strQuery="SELECT * from user where 
+[12:36:34.485]                                          ^
+[12:36:34.485] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\login.java:37: unclosed character literal
+[12:36:34.485] 				Username='"+username+"' and  Password='"+userpass+"'";
+[12:36:34.485]                                          ^
+[12:36:34.485] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\loginbean.java:1: <identifier> expected
+[12:36:34.485] package package uk.ac.dundee.computing.richardgoodman.banter;
+[12:36:34.485]         ^
+[12:36:34.485] 3 errors
+[12:37:19.063] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[12:37:19.203] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[12:37:21.953] Compiling uk/ac/dundee/computing/richardgoodman/banter/login.java
+[12:37:21.953] Compiling uk/ac/dundee/computing/richardgoodman/banter/loginbean.java
+[12:37:21.969] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\login.java:36: ';' expected
+[12:37:21.969] 				strQuery="SELECT * FROM User WHERE" 
+[12:37:21.969]                                                                    ^
+[12:37:21.969] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\login.java:37: unclosed character literal
+[12:37:21.969] 				Username='"+username+"' and  Password='"+userpass+"'";
+[12:37:21.969]                                          ^
+[12:37:21.969] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\loginbean.java:1: <identifier> expected
+[12:37:21.969] package package uk.ac.dundee.computing.richardgoodman.banter;
+[12:37:21.969]         ^
+[12:37:21.969] 3 errors
+[12:37:31.516] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[12:37:31.672] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[12:37:31.688] Compiling uk/ac/dundee/computing/richardgoodman/banter/login.java
+[12:37:31.688] Compiling uk/ac/dundee/computing/richardgoodman/banter/loginbean.java
+[12:37:31.703] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\login.java:37: unclosed character literal
+[12:37:31.703] 				Username='"+username+"' and  Password='"+userpass+"'";
+[12:37:31.703]                                          ^
+[12:37:31.703] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\loginbean.java:1: <identifier> expected
+[12:37:31.703] package package uk.ac.dundee.computing.richardgoodman.banter;
+[12:37:31.703]         ^
+[12:37:31.703] 2 errors
+[12:37:56.375] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[12:37:56.516] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[12:37:56.547] Compiling uk/ac/dundee/computing/richardgoodman/banter/login.java
+[12:37:56.547] Compiling uk/ac/dundee/computing/richardgoodman/banter/loginbean.java
+[12:37:56.547] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\login.java:37: unclosed character literal
+[12:37:56.547] 				Username='"+username+"' and  Password='"+userpass+"';
+[12:37:56.547]                                          ^
+[12:37:56.547] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\login.java:37: unclosed string literal
+[12:37:56.547] 				Username='"+username+"' and  Password='"+userpass+"';
+[12:37:56.547]                                                                                   ^
+[12:37:56.547] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\loginbean.java:1: <identifier> expected
+[12:37:56.547] package package uk.ac.dundee.computing.richardgoodman.banter;
+[12:37:56.547]         ^
+[12:37:56.547] 3 errors
+[12:38:56.562] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[12:38:56.718] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[12:40:39.093] Compiling uk/ac/dundee/computing/richardgoodman/banter/login.java
+[12:40:39.093] Compiling uk/ac/dundee/computing/richardgoodman/banter/loginbean.java
+[12:40:39.093] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\login.java:37: unclosed character literal
+[12:40:39.093] 				Username='"+username+" AND  Password="+userpass+"';
+[12:40:39.093]                                          ^
+[12:40:39.093] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\login.java:37: unclosed string literal
+[12:40:39.093] 				Username='"+username+" AND  Password="+userpass+"';
+[12:40:39.093]                                                                                 ^
+[12:40:39.093] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\loginbean.java:1: <identifier> expected
+[12:40:39.093] package package uk.ac.dundee.computing.richardgoodman.banter;
+[12:40:39.093]         ^
+[12:40:39.093] 3 errors
+[12:40:57.374] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[12:40:57.530] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[12:53:01.135] Compiling uk/ac/dundee/computing/richardgoodman/banter/Login.java
+[12:53:01.135] Compiling uk/ac/dundee/computing/richardgoodman/banter/LoginBean.java
+[12:53:01.150] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\Login.java:36: unclosed string literal
+[12:53:01.150] 				strQuery="SELECT * FROM User WHERE Username='"+username+"' AND  Password='"+userpass+"';
+[12:53:01.150]                                                                                                                      ^
+[12:53:01.150] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\LoginBean.java:1: <identifier> expected
+[12:53:01.150] package package uk.ac.dundee.computing.richardgoodman.banter;
+[12:53:01.150]         ^
+[12:53:01.150] 2 errors
+[12:54:00.525] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[12:54:00.666] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[12:54:09.666] Compiling uk/ac/dundee/computing/richardgoodman/banter/Login.java
+[12:54:09.666] Compiling uk/ac/dundee/computing/richardgoodman/banter/LoginBean.java
+[12:54:09.666] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\Login.java:36: unclosed string literal
+[12:54:09.666] 				strQuery="SELECT * FROM User WHERE Username='" + username + "' AND  Password='" + userpass"';
+[12:54:09.666]                                                                                                                           ^
+[12:54:09.666] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\LoginBean.java:1: <identifier> expected
+[12:54:09.666] package package uk.ac.dundee.computing.richardgoodman.banter;
+[12:54:09.666]         ^
+[12:54:09.666] 2 errors
+[12:55:00.978] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[12:55:01.150] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[13:03:27.631] Compiling uk/ac/dundee/computing/richardgoodman/banter/Login.java
+[13:03:27.631] Compiling uk/ac/dundee/computing/richardgoodman/banter/LoginBean.java
+[13:03:27.631] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\Login.java:36: unclosed string literal
+[13:03:27.631] 				strQuery="SELECT * FROM User WHERE Username='" + username + "' AND  Password='" + userpass"';
+[13:03:27.631]                                                                                                                           ^
+[13:03:27.631] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\LoginBean.java:1: <identifier> expected
+[13:03:27.631] package package uk.ac.dundee.computing.richardgoodman.banter;
+[13:03:27.631]         ^
+[13:03:27.631] 2 errors
+[13:04:02.521] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[13:04:02.662] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[13:06:07.286] Compiling uk/ac/dundee/computing/richardgoodman/banter/Login.java
+[13:06:07.286] Compiling uk/ac/dundee/computing/richardgoodman/banter/LoginBean.java
+[13:06:07.286] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\Login.java:36: ';' expected
+[13:06:07.286] 				strQuery="'SELECT * FROM User WHERE Username=" + username + " AND  Password=" + userpass" + "';";
+[13:06:07.286]                                                                                                                         ^
+[13:06:07.286] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\Login.java:36: unclosed character literal
+[13:06:07.286] 				strQuery="'SELECT * FROM User WHERE Username=" + username + " AND  Password=" + userpass" + "';";
+[13:06:07.286]                                                                                                                              ^
+[13:06:07.286] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\Login.java:36: unclosed string literal
+[13:06:07.286] 				strQuery="'SELECT * FROM User WHERE Username=" + username + " AND  Password=" + userpass" + "';";
+[13:06:07.286]                                                                                                                                ^
+[13:06:07.286] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\LoginBean.java:1: <identifier> expected
+[13:06:07.286] package package uk.ac.dundee.computing.richardgoodman.banter;
+[13:06:07.286]         ^
+[13:06:07.286] 4 errors
+[13:07:02.942] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[13:07:03.082] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[13:25:04.935] Compiling uk/ac/dundee/computing/richardgoodman/banter/Login.java
+[13:25:04.935] Compiling uk/ac/dundee/computing/richardgoodman/banter/LoginBean.java
+[13:25:04.935] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\LoginBean.java:1: <identifier> expected
+[13:25:04.935] package package uk.ac.dundee.computing.richardgoodman.banter;
+[13:25:04.935]         ^
+[13:25:04.935] 1 error
+[13:25:07.794] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[13:25:07.935] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[13:25:35.341] Compiling uk/ac/dundee/computing/richardgoodman/banter/Login.java
+[13:25:35.341] Compiling uk/ac/dundee/computing/richardgoodman/banter/LoginBean.java
+[13:25:35.700] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\Login.java:7: class login is public, should be declared in a file named login.java
+[13:25:35.700] public class login extends HttpServlet
+[13:25:35.700]        ^
+[13:25:35.700] 1 error
+[13:26:08.091] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[13:26:08.231] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[13:27:21.512] Compiling uk/ac/dundee/computing/richardgoodman/banter/Login.java
+[13:27:21.512] Compiling uk/ac/dundee/computing/richardgoodman/banter/LoginBean.java
+[13:27:21.840] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\Login.java:9: class login is public, should be declared in a file named login.java
+[13:27:21.840] public class login extends HttpServlet
+[13:27:21.840]        ^
+[13:27:21.840] 1 error
+[13:27:38.621] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[13:27:38.762] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[13:27:38.778] Compiling uk/ac/dundee/computing/richardgoodman/banter/Login.java
+[13:27:38.778] Compiling uk/ac/dundee/computing/richardgoodman/banter/LoginBean.java
+[13:27:39.090] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\Login.java:9: class login is public, should be declared in a file named login.java
+[13:27:39.090] public class login extends HttpServlet
+[13:27:39.090]        ^
+[13:27:39.090] 1 error
+[13:27:57.715] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[13:27:57.856] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[13:27:57.871] Compiling uk/ac/dundee/computing/richardgoodman/banter/Login.java
+[13:27:57.871] Compiling uk/ac/dundee/computing/richardgoodman/banter/LoginBean.java
+[13:27:58.231] Compiling _jsp/_login__jsp.java
+[13:28:05.699] /loginbean.jsp:9: Can't find class `banter.loginbean'
+[13:28:49.215] /loginbean.jsp:9: Can't find class `banter.LoginBean'
+[13:31:12.823] Compiling _jsp/_loginbean__jsp.java
+[13:31:13.589] /loginbean.jsp:12: cannot find symbol
+[13:31:13.589] symbol  : variable db
+[13:31:13.589] location: class _jsp._loginbean__jsp
+[13:31:13.589]       pageContext.forward("hello", "username=" + com.caucho.el.Expr.toStringNonNull(db.getUserName(), null)+ "&" + "password=" + com.caucho.el.Expr.toStringNonNull(db.getPassword(), null));
+[13:31:13.589]                                                                                     ^
+[13:31:13.589] /loginbean.jsp:12: cannot find symbol
+[13:31:13.589] symbol  : variable db
+[13:31:13.589] location: class _jsp._loginbean__jsp
+[13:31:13.589]       pageContext.forward("hello", "username=" + com.caucho.el.Expr.toStringNonNull(db.getUserName(), null)+ "&" + "password=" + com.caucho.el.Expr.toStringNonNull(db.getPassword(), null));
+[13:31:13.589]                                                                                                                                                                     ^
+[13:31:13.589] 2 errors
+[13:32:11.135] Compiling _jsp/_loginbean__jsp.java
+[13:32:11.588] resin-file: init
+[13:33:02.963] Compiling _jsp/_loginbean__jsp.java
+[13:33:04.213] Compiling _jsp/_index__jsp.java
+[13:41:00.382] Compiling uk/ac/dundee/computing/richardgoodman/banter/Login.java
+[13:41:00.757] Compiling _jsp/_loginbean__jsp.java
+[14:15:57.915] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[14:15:57.915] resin-file: destroy
+[14:15:58.212] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[14:15:58.290] Compiling _jsp/_login__jsp.java
+[14:16:04.587] Login: init
+MySQL Connect Example.
+MySQL Connect Example.
+[14:22:05.241] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[14:22:05.241] Login: destroy
+[14:22:05.382] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[14:22:05.397] resin-file: init
+[14:24:16.022] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[14:24:16.037] resin-file: destroy
+[14:24:16.178] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[14:24:16.209] Compiling uk/ac/dundee/computing/richardgoodman/banter/Login.java
+[14:24:16.209] Compiling uk/ac/dundee/computing/richardgoodman/banter/LoginBean.java
+[14:24:16.537] Compiling _jsp/_login__jsp.java
+[14:24:23.350] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[14:24:23.506] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[14:24:23.506] resin-file: init
+[14:29:12.848] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[14:29:12.848] resin-file: destroy
+[14:29:13.020] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[14:29:17.817] Login: init
+MySQL Connect Example.
+MySQL Connect Example.
+[14:31:32.784] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[14:31:32.784] Login: destroy
+[14:33:53.002] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[14:33:53.002] Login: init
+[14:33:53.018] java.io.FileNotFoundException: /richardgoodman/index.jsp
+[14:33:53.018] 	at com.caucho.jsp.PageManager.getPage(PageManager.java:251)
+[14:33:53.018] 	at com.caucho.jsp.PageManager.getPage(PageManager.java:166)
+[14:33:53.018] 	at com.caucho.jsp.QServlet.getSubPage(QServlet.java:298)
+[14:33:53.018] 	at com.caucho.jsp.QServlet.getPage(QServlet.java:210)
+[14:33:53.018] 	at com.caucho.server.dispatch.PageFilterChain.compilePage(PageFilterChain.java:206)
+[14:33:53.018] 	at com.caucho.server.dispatch.PageFilterChain.doFilter(PageFilterChain.java:133)
+[14:33:53.018] 	at com.caucho.server.webapp.DispatchFilterChain.doFilter(DispatchFilterChain.java:115)
+[14:33:53.018] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[14:33:53.018] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:277)
+[14:33:53.018] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:106)
+[14:33:53.018] 	at uk.ac.dundee.computing.richardgoodman.banter.Login.doPost(Login.java:21)
+[14:33:53.018] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:154)
+[14:33:53.018] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:92)
+[14:33:53.018] 	at com.caucho.server.dispatch.ServletFilterChain.doFilter(ServletFilterChain.java:106)
+[14:33:53.018] 	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:173)
+[14:33:53.018] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[14:33:53.018] 	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:274)
+[14:33:53.018] 	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:511)
+[14:33:53.018] 	at com.caucho.util.ThreadPool.runTasks(ThreadPool.java:516)
+[14:33:53.018] 	at com.caucho.util.ThreadPool.run(ThreadPool.java:442)
+[14:33:53.018] 	at java.lang.Thread.run(Thread.java:595)
+[14:35:06.158] java.io.FileNotFoundException: /richardgoodman/index.jsp
+[14:35:06.158] 	at com.caucho.jsp.PageManager.getPage(PageManager.java:251)
+[14:35:06.158] 	at com.caucho.jsp.PageManager.getPage(PageManager.java:166)
+[14:35:06.158] 	at com.caucho.jsp.QServlet.getSubPage(QServlet.java:298)
+[14:35:06.158] 	at com.caucho.jsp.QServlet.getPage(QServlet.java:210)
+[14:35:06.158] 	at com.caucho.server.dispatch.PageFilterChain.compilePage(PageFilterChain.java:206)
+[14:35:06.158] 	at com.caucho.server.dispatch.PageFilterChain.doFilter(PageFilterChain.java:133)
+[14:35:06.158] 	at com.caucho.server.webapp.DispatchFilterChain.doFilter(DispatchFilterChain.java:115)
+[14:35:06.158] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[14:35:06.158] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:277)
+[14:35:06.158] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:106)
+[14:35:06.158] 	at uk.ac.dundee.computing.richardgoodman.banter.Login.doPost(Login.java:21)
+[14:35:06.158] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:154)
+[14:35:06.158] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:92)
+[14:35:06.158] 	at com.caucho.server.dispatch.ServletFilterChain.doFilter(ServletFilterChain.java:106)
+[14:35:06.158] 	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:173)
+[14:35:06.158] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[14:35:06.158] 	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:274)
+[14:35:06.158] 	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:511)
+[14:35:06.158] 	at com.caucho.util.ThreadPool.runTasks(ThreadPool.java:516)
+[14:35:06.158] 	at com.caucho.util.ThreadPool.run(ThreadPool.java:442)
+[14:35:06.158] 	at java.lang.Thread.run(Thread.java:595)
+[14:36:01.736] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[14:36:01.736] Login: destroy
+[14:36:01.908] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[14:36:01.908] Login: init
+[14:36:01.923] java.io.FileNotFoundException: /richardgoodman/index.jsp
+[14:36:01.923] 	at com.caucho.jsp.PageManager.getPage(PageManager.java:251)
+[14:36:01.923] 	at com.caucho.jsp.PageManager.getPage(PageManager.java:166)
+[14:36:01.923] 	at com.caucho.jsp.QServlet.getSubPage(QServlet.java:298)
+[14:36:01.923] 	at com.caucho.jsp.QServlet.getPage(QServlet.java:210)
+[14:36:01.923] 	at com.caucho.server.dispatch.PageFilterChain.compilePage(PageFilterChain.java:206)
+[14:36:01.923] 	at com.caucho.server.dispatch.PageFilterChain.doFilter(PageFilterChain.java:133)
+[14:36:01.923] 	at com.caucho.server.webapp.DispatchFilterChain.doFilter(DispatchFilterChain.java:115)
+[14:36:01.923] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[14:36:01.923] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:277)
+[14:36:01.923] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:106)
+[14:36:01.923] 	at uk.ac.dundee.computing.richardgoodman.banter.Login.doPost(Login.java:21)
+[14:36:01.923] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:154)
+[14:36:01.923] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:92)
+[14:36:01.923] 	at com.caucho.server.dispatch.ServletFilterChain.doFilter(ServletFilterChain.java:106)
+[14:36:01.923] 	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:173)
+[14:36:01.923] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[14:36:01.923] 	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:274)
+[14:36:01.923] 	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:511)
+[14:36:01.923] 	at com.caucho.util.ThreadPool.runTasks(ThreadPool.java:516)
+[14:36:01.923] 	at com.caucho.util.ThreadPool.run(ThreadPool.java:442)
+[14:36:01.923] 	at java.lang.Thread.run(Thread.java:595)
+[14:36:10.923] java.io.FileNotFoundException: /richardgoodman/index.jsp
+[14:36:10.923] 	at com.caucho.jsp.PageManager.getPage(PageManager.java:251)
+[14:36:10.923] 	at com.caucho.jsp.PageManager.getPage(PageManager.java:166)
+[14:36:10.923] 	at com.caucho.jsp.QServlet.getSubPage(QServlet.java:298)
+[14:36:10.923] 	at com.caucho.jsp.QServlet.getPage(QServlet.java:210)
+[14:36:10.923] 	at com.caucho.server.dispatch.PageFilterChain.compilePage(PageFilterChain.java:206)
+[14:36:10.923] 	at com.caucho.server.dispatch.PageFilterChain.doFilter(PageFilterChain.java:133)
+[14:36:10.923] 	at com.caucho.server.webapp.DispatchFilterChain.doFilter(DispatchFilterChain.java:115)
+[14:36:10.923] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[14:36:10.923] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:277)
+[14:36:10.923] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:106)
+[14:36:10.923] 	at uk.ac.dundee.computing.richardgoodman.banter.Login.doPost(Login.java:21)
+[14:36:10.923] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:154)
+[14:36:10.923] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:92)
+[14:36:10.923] 	at com.caucho.server.dispatch.ServletFilterChain.doFilter(ServletFilterChain.java:106)
+[14:36:10.923] 	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:173)
+[14:36:10.923] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[14:36:10.923] 	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:274)
+[14:36:10.923] 	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:511)
+[14:36:10.923] 	at com.caucho.util.ThreadPool.runTasks(ThreadPool.java:516)
+[14:36:10.923] 	at com.caucho.util.ThreadPool.run(ThreadPool.java:442)
+[14:36:10.923] 	at java.lang.Thread.run(Thread.java:595)
+[14:36:13.501] java.io.FileNotFoundException: /richardgoodman/index.jsp
+[14:36:13.501] 	at com.caucho.jsp.PageManager.getPage(PageManager.java:251)
+[14:36:13.501] 	at com.caucho.jsp.PageManager.getPage(PageManager.java:166)
+[14:36:13.501] 	at com.caucho.jsp.QServlet.getSubPage(QServlet.java:298)
+[14:36:13.501] 	at com.caucho.jsp.QServlet.getPage(QServlet.java:210)
+[14:36:13.501] 	at com.caucho.server.dispatch.PageFilterChain.compilePage(PageFilterChain.java:206)
+[14:36:13.501] 	at com.caucho.server.dispatch.PageFilterChain.doFilter(PageFilterChain.java:133)
+[14:36:13.501] 	at com.caucho.server.webapp.DispatchFilterChain.doFilter(DispatchFilterChain.java:115)
+[14:36:13.501] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[14:36:13.501] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:277)
+[14:36:13.501] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:106)
+[14:36:13.501] 	at uk.ac.dundee.computing.richardgoodman.banter.Login.doPost(Login.java:21)
+[14:36:13.501] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:154)
+[14:36:13.501] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:92)
+[14:36:13.501] 	at com.caucho.server.dispatch.ServletFilterChain.doFilter(ServletFilterChain.java:106)
+[14:36:13.501] 	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:173)
+[14:36:13.501] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[14:36:13.501] 	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:274)
+[14:36:13.501] 	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:511)
+[14:36:13.501] 	at com.caucho.util.ThreadPool.runTasks(ThreadPool.java:516)
+[14:36:13.501] 	at com.caucho.util.ThreadPool.run(ThreadPool.java:442)
+[14:36:13.501] 	at java.lang.Thread.run(Thread.java:595)
+[14:37:08.876] java.io.FileNotFoundException: /richardgoodman/index.jsp
+[14:37:08.876] 	at com.caucho.jsp.PageManager.getPage(PageManager.java:251)
+[14:37:08.876] 	at com.caucho.jsp.PageManager.getPage(PageManager.java:166)
+[14:37:08.876] 	at com.caucho.jsp.QServlet.getSubPage(QServlet.java:298)
+[14:37:08.876] 	at com.caucho.jsp.QServlet.getPage(QServlet.java:210)
+[14:37:08.876] 	at com.caucho.server.dispatch.PageFilterChain.compilePage(PageFilterChain.java:206)
+[14:37:08.876] 	at com.caucho.server.dispatch.PageFilterChain.doFilter(PageFilterChain.java:133)
+[14:37:08.876] 	at com.caucho.server.webapp.DispatchFilterChain.doFilter(DispatchFilterChain.java:115)
+[14:37:08.876] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[14:37:08.876] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:277)
+[14:37:08.876] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:106)
+[14:37:08.876] 	at uk.ac.dundee.computing.richardgoodman.banter.Login.doPost(Login.java:21)
+[14:37:08.876] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:154)
+[14:37:08.876] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:92)
+[14:37:08.876] 	at com.caucho.server.dispatch.ServletFilterChain.doFilter(ServletFilterChain.java:106)
+[14:37:08.876] 	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:173)
+[14:37:08.876] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[14:37:08.876] 	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:274)
+[14:37:08.876] 	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:511)
+[14:37:08.876] 	at com.caucho.util.ThreadPool.runTasks(ThreadPool.java:516)
+[14:37:08.876] 	at com.caucho.util.ThreadPool.run(ThreadPool.java:442)
+[14:37:08.876] 	at java.lang.Thread.run(Thread.java:595)
+[14:37:12.673] java.io.FileNotFoundException: /richardgoodman/index.jsp
+[14:37:12.673] 	at com.caucho.jsp.PageManager.getPage(PageManager.java:251)
+[14:37:12.673] 	at com.caucho.jsp.PageManager.getPage(PageManager.java:166)
+[14:37:12.673] 	at com.caucho.jsp.QServlet.getSubPage(QServlet.java:298)
+[14:37:12.673] 	at com.caucho.jsp.QServlet.getPage(QServlet.java:210)
+[14:37:12.673] 	at com.caucho.server.dispatch.PageFilterChain.compilePage(PageFilterChain.java:206)
+[14:37:12.673] 	at com.caucho.server.dispatch.PageFilterChain.doFilter(PageFilterChain.java:133)
+[14:37:12.673] 	at com.caucho.server.webapp.DispatchFilterChain.doFilter(DispatchFilterChain.java:115)
+[14:37:12.673] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[14:37:12.673] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:277)
+[14:37:12.673] 	at com.caucho.server.webapp.RequestDispatcherImpl.forward(RequestDispatcherImpl.java:106)
+[14:37:12.673] 	at uk.ac.dundee.computing.richardgoodman.banter.Login.doPost(Login.java:21)
+[14:37:12.673] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:154)
+[14:37:12.673] 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:92)
+[14:37:12.673] 	at com.caucho.server.dispatch.ServletFilterChain.doFilter(ServletFilterChain.java:106)
+[14:37:12.673] 	at com.caucho.server.webapp.WebAppFilterChain.doFilter(WebAppFilterChain.java:173)
+[14:37:12.673] 	at com.caucho.server.dispatch.ServletInvocation.service(ServletInvocation.java:229)
+[14:37:12.673] 	at com.caucho.server.http.HttpRequest.handleRequest(HttpRequest.java:274)
+[14:37:12.673] 	at com.caucho.server.port.TcpConnection.run(TcpConnection.java:511)
+[14:37:12.673] 	at com.caucho.util.ThreadPool.runTasks(ThreadPool.java:516)
+[14:37:12.673] 	at com.caucho.util.ThreadPool.run(ThreadPool.java:442)
+[14:37:12.673] 	at java.lang.Thread.run(Thread.java:595)
+[14:37:42.891] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[14:37:42.891] Login: destroy
+[14:37:43.391] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[14:37:45.095] Login: init
+[14:39:57.953] Compiling _jsp/_index__jsp.java
+[14:43:44.149] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[14:43:44.149] Login: destroy
+[14:43:44.306] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[14:43:54.634] Login: init
+[14:43:54.681] Compiling uk/ac/dundee/computing/richardgoodman/banter/Login.java
+[14:43:54.978] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\Login.java:31: setUsername(java.lang.String) in uk.ac.dundee.computing.richardgoodman.banter.LoginBean cannot be applied to (java.lang.Object)
+[14:43:54.978] 	loginBean.setUsername(req.getAttribute("userName"));
+[14:43:54.978]                  ^
+[14:43:54.978] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\Login.java:32: setPassword(java.lang.String) in uk.ac.dundee.computing.richardgoodman.banter.LoginBean cannot be applied to (java.lang.Object)
+[14:43:54.978] 	loginBean.setPassword(req.getAttribute("password"));
+[14:43:54.978]                  ^
+[14:43:54.978] 2 errors
+[14:44:43.886] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[14:44:43.886] Login: destroy
+[14:44:44.042] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[14:45:40.543] Login: init
+[14:45:40.574] Compiling uk/ac/dundee/computing/richardgoodman/banter/Login.java
+[14:45:40.903] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\Login.java:26: incompatible types
+[14:45:40.903] found   : java.lang.Object
+[14:45:40.903] required: java.lang.String
+[14:45:40.903] 		String Username = req.getAttribute("userName");
+[14:45:40.903]                                                   ^
+[14:45:40.903] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\Login.java:27: incompatible types
+[14:45:40.903] found   : java.lang.Object
+[14:45:40.903] required: java.lang.String
+[14:45:40.903] 		String Password = req.getAttribute("password");
+[14:45:40.903]                                                   ^
+[14:45:40.903] 2 errors
+[14:45:43.887] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[14:45:43.887] Login: destroy
+[14:45:44.043] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[14:46:39.888] Login: init
+[14:46:39.935] Compiling uk/ac/dundee/computing/richardgoodman/banter/Login.java
+[14:46:40.310] Compiling _jsp/_index__jsp.java
+[14:46:43.903] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[14:46:43.903] Login: destroy
+[14:46:44.044] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[14:47:29.263] Login: init
+[14:47:29.342] resin-file: init
+[14:48:43.967] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[14:48:43.967] resin-file: destroy
+[14:48:43.967] Login: destroy
+[14:48:44.889] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[14:48:53.874] Login: init
+[15:01:39.825] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[15:01:39.825] Login: destroy
+[15:01:40.060] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[15:01:45.122] Login: init
+[15:18:03.944] Compiling uk/ac/dundee/computing/richardgoodman/banter/Login.java
+[15:18:03.960] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\Login.java:23: illegal start of expression
+[15:18:03.960] 		 %><p>Can not get Class <%=E%><%
+[15:18:03.960]                  ^
+[15:18:03.960] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\Login.java:24: ';' expected
+[15:18:03.960] 		}
+[15:18:03.960]                 ^
+[15:18:03.960] 2 errors
+[15:18:32.647] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[15:18:32.647] Login: destroy
+[15:18:32.881] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[15:18:32.928] Compiling uk/ac/dundee/computing/richardgoodman/banter/Login.java
+[15:18:33.256] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\Login.java:33: incomparable types: java.sql.ResultSet and int
+[15:18:33.256] 			if (rs == 1)
+[15:18:33.256]                                ^
+[15:18:33.256] 1 error
+[15:19:32.912] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[15:19:33.068] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[15:23:35.270] Compiling uk/ac/dundee/computing/richardgoodman/banter/Login.java
+[15:23:35.879] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\Login.java:33: cannot find symbol
+[15:23:35.879] symbol  : variable getInt
+[15:23:35.879] location: interface java.sql.ResultSet
+[15:23:35.879] 			if (rs.getInt == 1)
+[15:23:35.879]                               ^
+[15:23:35.879] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\Login.java:36: cannot find symbol
+[15:23:35.879] symbol  : variable loginBean
+[15:23:35.879] location: class uk.ac.dundee.computing.richardgoodman.banter.Login
+[15:23:35.879] 				loginBean.setUsername(Username);
+[15:23:35.879]                                 ^
+[15:23:35.879] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\Login.java:37: cannot find symbol
+[15:23:35.879] symbol  : variable loginBean
+[15:23:35.879] location: class uk.ac.dundee.computing.richardgoodman.banter.Login
+[15:23:35.879] 				loginBean.setPassword(Password);
+[15:23:35.879]                                 ^
+[15:23:35.879] 3 errors
+[15:24:00.895] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[15:24:01.051] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[15:24:01.082] Compiling uk/ac/dundee/computing/richardgoodman/banter/Login.java
+[15:24:01.395] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\Login.java:33: cannot find symbol
+[15:24:01.395] symbol  : variable getInt
+[15:24:01.395] location: interface java.sql.ResultSet
+[15:24:01.395] 			if (rs.getInt == 1)
+[15:24:01.395]                               ^
+[15:24:01.395] 1 error
+[15:24:29.395] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[15:24:29.551] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[15:24:29.582] Compiling uk/ac/dundee/computing/richardgoodman/banter/Login.java
+[15:24:29.910] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\Login.java:33: inconvertible types
+[15:24:29.910] found   : java.sql.ResultSet
+[15:24:29.910] required: int
+[15:24:29.910] 			if ((int)rs == 1)
+[15:24:29.910]                                  ^
+[15:24:29.910] 1 error
+[15:25:29.160] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[15:25:29.425] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[15:26:09.269] Compiling uk/ac/dundee/computing/richardgoodman/banter/Login.java
+[15:26:09.581] Compiling _jsp/_index__jsp.java
+[15:26:29.222] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[15:26:29.472] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[15:27:17.503] resin-file: init
+[15:28:30.362] Compiling _jsp/_index__jsp.java
+[15:28:43.018] Login: init
+[16:08:08.472] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[16:08:08.472] resin-file: destroy
+[16:08:08.472] Login: destroy
+[16:09:59.018] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[16:09:59.127] resin-file: init
+[16:10:07.393] Login: init
+[16:21:12.451] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[16:21:12.451] resin-file: destroy
+[16:21:12.451] Login: destroy
+[16:21:12.623] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[16:21:18.951] Login: init
+[16:21:40.029] resin-file: init
+[16:32:15.134] Compiling uk/ac/dundee/computing/richardgoodman/banter/Login.java
+[16:32:15.447] Compiling _jsp/_index__jsp.java
+[16:32:15.978] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[16:32:15.978] resin-file: destroy
+[16:32:15.978] Login: destroy
+[16:32:16.165] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[16:32:16.165] resin-file: init
+[16:34:19.711] Compiling _jsp/_index__jsp.java
+[03:52:33.376] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[09:25:09.905] resin-file: init
+[09:25:19.342] Login: init
+[09:27:50.263] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[09:27:50.263] resin-file: destroy
+[09:27:50.263] Login: destroy
+[09:27:51.341] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[09:27:51.388] resin-file: init
+[09:27:57.185] Login: init
+[09:32:52.308] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[09:32:52.308] resin-file: destroy
+[09:32:52.308] Login: destroy
+[09:32:52.465] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[09:33:04.808] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[09:33:05.293] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[09:33:12.308] Login: init
+[09:36:04.838] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[09:36:04.838] Login: destroy
+[09:36:05.307] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[09:36:05.354] resin-file: init
+[09:36:11.901] Login: init
+[09:37:05.854] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[09:37:05.869] resin-file: destroy
+[09:37:05.869] Login: destroy
+[09:37:06.041] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[09:37:20.182] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[09:37:20.635] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[09:37:20.682] resin-file: init
+[09:37:25.619] Login: init
+[09:37:58.806] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[09:37:58.806] resin-file: destroy
+[09:37:58.806] Login: destroy
+[09:37:59.291] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[09:38:04.775] Login: init
+[09:39:29.275] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[09:39:29.275] Login: destroy
+[09:39:29.775] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[09:39:35.634] Login: init
+[09:39:54.446] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[09:39:54.446] Login: destroy
+[09:39:54.931] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[09:40:01.571] Login: init
+[09:44:29.913] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[09:44:29.913] Login: destroy
+[09:44:30.398] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[09:44:30.444] resin-file: init
+[09:44:38.804] Login: init
+[09:46:30.522] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[09:46:30.522] resin-file: destroy
+[09:46:30.522] Login: destroy
+[09:46:30.662] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[09:46:36.412] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[09:46:36.866] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[09:46:36.912] resin-file: init
+[09:46:42.850] Login: init
+[09:48:37.146] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[09:48:37.146] resin-file: destroy
+[09:48:37.146] Login: destroy
+[09:48:37.302] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[09:49:50.927] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[09:49:51.411] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[09:49:51.458] Loading .tld files from global classpath
+[09:49:52.161] Compiling _jsp/_index__jsp.java
+[09:49:52.708] resin-file: init
+[10:01:50.625] Compiling _jsp/_login__jsp.java
+[10:02:07.828] Login: init
+[10:04:49.577] Compiling _jsp/_login__jsp.java
+[10:05:33.014] Compiling _jsp/_login__jsp.java
+[10:07:20.275] Compiling _jsp/_login__jsp.java
+[10:13:54.655] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[10:13:54.655] resin-file: destroy
+[10:13:54.655] Login: destroy
+[10:13:55.155] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[10:32:25.131] Compiling _jsp/_index__jsp.java
+[10:32:25.319] /index.jsp:30: ')' expected
+[10:32:25.319] 				if (String name = request.getAttribute(userBean) == null)
+[10:32:25.319]                                            ^
+[10:32:25.319] 1 error
+[10:33:29.397] Compiling _jsp/_index__jsp.java
+[10:33:29.397] /index.jsp:33: illegal start of expression
+[10:33:29.397] 					<li><a title="Log in" href="login.jsp">Login</a></li>
+[10:33:29.397]                                             ^
+[10:33:29.397] /index.jsp:34: ';' expected
+[10:33:29.397] 				}
+[10:33:29.397]                                 ^
+[10:33:29.397] /index.jsp:37: illegal start of expression
+[10:33:29.397] 					<li><a title="Log out" href="login.jsp">Login</a></li>
+[10:33:29.397]                                             ^
+[10:33:29.397] /index.jsp:38: ';' expected
+[10:33:29.397] 				}
+[10:33:29.397]                                 ^
+[10:33:29.397] 4 errors
+[10:34:26.615] Compiling _jsp/_index__jsp.java
+[10:34:26.615] /index.jsp:33: illegal start of expression
+[10:34:26.615] 					out.print(<li><a title="Log in" href="login.jsp">Login</a></li>);
+[10:34:26.615]                                                       ^
+[10:34:26.615] /index.jsp:33: ')' expected
+[10:34:26.615] 					out.print(<li><a title="Log in" href="login.jsp">Login</a></li>);
+[10:34:26.615]                                                                                                         ^
+[10:34:26.615] /index.jsp:37: illegal start of expression
+[10:34:26.615] 					out.print(<li><a title="Log out" href="login.jsp">Login</a></li>);
+[10:34:26.615]                                                       ^
+[10:34:26.615] /index.jsp:37: ')' expected
+[10:34:26.615] 					out.print(<li><a title="Log out" href="login.jsp">Login</a></li>);
+[10:34:26.615]                                                                                                          ^
+[10:34:26.615] 4 errors
+[10:34:55.130] Compiling _jsp/_index__jsp.java
+[10:34:55.146] /index.jsp:33: ')' expected
+[10:34:55.146] 					out.print("<li><a title="Log in" href="login.jsp">Login</a></li>");
+[10:34:55.146]                                                                  ^
+[10:34:55.146] /index.jsp:37: ')' expected
+[10:34:55.146] 					out.print("<li><a title="Log out" href="login.jsp">Login</a></li>");
+[10:34:55.146]                                                                  ^
+[10:34:55.146] 2 errors
+[10:35:20.302] Compiling _jsp/_index__jsp.java
+[10:35:20.333] /index.jsp:33: unclosed character literal
+[10:35:20.333] 					out.print('<li><a title="Log in" href="login.jsp">Login</a></li>');
+[10:35:20.333]                                                   ^
+[10:35:20.333] /index.jsp:33: unclosed character literal
+[10:35:20.333] 					out.print('<li><a title="Log in" href="login.jsp">Login</a></li>');
+[10:35:20.333]                                                                                                         ^
+[10:35:20.333] /index.jsp:33: ')' expected
+[10:35:20.333] 					out.print('<li><a title="Log in" href="login.jsp">Login</a></li>');
+[10:35:20.333]                                                                                                           ^
+[10:35:20.333] /index.jsp:37: unclosed character literal
+[10:35:20.333] 					out.print('<li><a title="Log out" href="login.jsp">Login</a></li>');
+[10:35:20.333]                                                   ^
+[10:35:20.333] /index.jsp:37: unclosed character literal
+[10:35:20.333] 					out.print('<li><a title="Log out" href="login.jsp">Login</a></li>');
+[10:35:20.333]                                                                                                          ^
+[10:35:20.333] /index.jsp:37: ')' expected
+[10:35:20.333] 					out.print('<li><a title="Log out" href="login.jsp">Login</a></li>');
+[10:35:20.333]                                                                                                            ^
+[10:35:20.333] 6 errors
+[12:01:20.593] Compiling _jsp/_index__jsp.java
+[12:01:21.093] resin-file: init
+[12:01:37.296] Login: init
+[12:03:09.030] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[12:03:09.030] resin-file: destroy
+[12:03:09.030] Login: destroy
+[12:03:09.327] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[12:03:42.546] Login: init
+[12:10:41.512] resin-file: init
+[12:11:16.761] Compiling _jsp/_login__jsp.java
+[12:11:38.730] Compiling _jsp/_login__jsp.java
+[12:25:11.367] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[12:25:11.367] resin-file: destroy
+[12:25:11.367] Login: destroy
+[12:37:14.957] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[12:37:14.988] Compiling _jsp/_index__jsp.java
+[12:37:15.425] resin-file: init
+[12:37:18.753] Compiling _jsp/_createaccount__jsp.java
+[12:40:01.377] Compiling _jsp/_index__jsp.java
+[12:41:06.830] Compiling _jsp/_index__jsp.java
+[12:41:06.846] /index.jsp:21: ')' expected
+[12:41:06.846] 		if (String sessionID = loginBean.getId() == null)
+[12:41:06.846]                            ^
+[12:41:06.846] 1 error
+[12:41:34.736] Compiling _jsp/_index__jsp.java
+[12:45:58.156] Compiling _jsp/_index__jsp.java
+[12:46:25.078] Compiling _jsp/_index__jsp.java
+[12:49:40.389] Compiling _jsp/_index__jsp.java
+[12:51:46.545] Compiling _jsp/_login__jsp.java
+[12:51:52.701] Login: init
+[12:52:52.747] Compiling _jsp/_login__jsp.java
+[16:10:18.035] Compiling uk/ac/dundee/computing/richardgoodman/banter/Signup.java
+[16:10:18.425] Compiling _jsp/_login__jsp.java
+[16:13:48.112] Compiling _jsp/_login__jsp.java
+[16:14:51.799] Compiling _jsp/_login__jsp.java
+[16:15:06.236] Compiling _jsp/_login__jsp.java
+[16:21:51.296] Compiling _jsp/_login__jsp.java
+[16:28:54.450] Compiling _jsp/_login__jsp.java
+[16:29:20.918] Compiling _jsp/_login__jsp.java
+[16:29:53.027] Compiling _jsp/_login__jsp.java
+[16:30:05.715] Compiling _jsp/_login__jsp.java
+[16:31:48.792] Compiling _jsp/_login__jsp.java
+[16:32:32.636] Compiling _jsp/_login__jsp.java
+[16:32:49.870] Compiling _jsp/_login__jsp.java
+[16:33:08.198] Compiling _jsp/_login__jsp.java
+[16:34:36.916] Compiling _jsp/_login__jsp.java
+[16:35:20.072] Compiling _jsp/_login__jsp.java
+[16:35:47.775] Compiling _jsp/_login__jsp.java
+[16:36:47.493] Compiling _jsp/_login__jsp.java
+[16:37:51.743] Compiling _jsp/_login__jsp.java
+[16:38:37.805] Compiling _jsp/_login__jsp.java
+[16:42:51.960] Compiling _jsp/_login__jsp.java
+[16:45:17.162] Compiling _jsp/_login__jsp.java
+[16:45:41.709] Compiling _jsp/_login__jsp.java
+[16:48:15.958] Compiling _jsp/_login__jsp.java
+[16:50:35.988] Compiling _jsp/_login__jsp.java
+[16:50:50.816] Compiling _jsp/_login__jsp.java
+[16:54:34.893] Compiling _jsp/_login__jsp.java
+[16:54:58.690] Compiling _jsp/_login__jsp.java
+[16:55:02.111] Compiling _jsp/_createaccount__jsp.java
+[16:57:27.314] Compiling _jsp/_login__jsp.java
+[16:57:28.876] Compiling _jsp/_createaccount__jsp.java
+[17:25:52.818] Compiling uk/ac/dundee/computing/richardgoodman/banter/Signup.java
+[17:25:53.162] Compiling _jsp/_index__jsp.java
+[17:32:20.300] Compiling uk/ac/dundee/computing/richardgoodman/banter/Signup.java
+[17:32:20.628] Compiling _jsp/_createaccount__jsp.java
+[17:32:29.003] Compiling _jsp/_login__jsp.java
+[17:34:10.003] Compiling uk/ac/dundee/computing/richardgoodman/banter/Signup.java
+[17:34:10.362] Compiling _jsp/_createaccount__jsp.java
+[17:38:34.173] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[17:38:34.173] resin-file: destroy
+[17:38:34.173] Login: destroy
+[17:38:34.392] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[17:38:34.438] resin-file: init
+[17:38:36.079] Compiling _jsp/_createaccount__jsp.java
+[17:38:55.579] Create: init
+[17:53:09.902] Compiling uk/ac/dundee/computing/richardgoodman/banter/Signup.java
+[17:53:10.214] Compiling _jsp/_login__jsp.java
+[17:53:11.948] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[17:53:11.948] resin-file: destroy
+[17:53:11.948] Create: destroy
+[17:53:12.105] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[17:53:12.136] Compiling _jsp/_createaccount__jsp.java
+[17:53:34.323] Create: init
+com.mysql.jdbc.exceptions.MySQLIntegrityConstraintViolationException: Duplicate entry 'banter' for key 3[17:59:47.321] resin-file: init
+[18:01:57.867] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[18:01:57.867] resin-file: destroy
+[18:01:57.867] Create: destroy
+[18:01:58.351] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[18:01:58.398] resin-file: init
+[18:02:15.273] Create: init
+[18:04:12.507] Compiling _jsp/_login__jsp.java
+[18:04:13.679] Compiling _jsp/_createaccount__jsp.java
+[18:08:58.509] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[18:08:58.509] resin-file: destroy
+[18:08:58.509] Create: destroy
+[18:08:58.634] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[18:09:01.290] Compiling _jsp/_createaccount__jsp.java
+[18:10:52.977] Create: init
+[18:11:01.758] Login: init
+[18:25:12.299] resin-file: init
+[13:48:22.532] Compiling _jsp/_index__jsp.java
+[13:52:06.702] Compiling _jsp/_index__jsp.java
+[13:52:08.218] Compiling _jsp/_contact__jsp.java
+[14:02:58.276] Compiling _jsp/_login__jsp.java
+[14:28:26.923] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[14:28:26.938] resin-file: destroy
+[14:28:26.938] Login: destroy
+[14:28:26.938] Create: destroy
+[14:28:27.626] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[14:29:15.048] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[14:48:24.066] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[14:48:24.129] resin-file: init
+[14:48:27.738] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[14:48:27.738] resin-file: destroy
+[14:48:27.910] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[14:48:27.910] Filter: init
+[14:48:40.129] Compiling _jsp/_createaccount__jsp.java
+[15:03:05.528] Compiling uk/ac/dundee/computing/richardgoodman/banter/Login.java
+[15:03:05.840] Compiling _jsp/_contact__jsp.java
+[15:03:09.403] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[15:03:09.403] Filter: destroy
+[15:03:09.544] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[15:06:17.558] resin-file: init
+[15:06:18.495] Filter: init
+[15:09:06.994] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[15:09:06.994] resin-file: destroy
+[15:09:06.994] Filter: destroy
+[15:09:07.135] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[15:13:56.914] Compiling uk/ac/dundee/computing/richardgoodman/banter/Login.java
+[15:13:57.211] d:\www\2012-ac31004\richardgoodman\WEB-INF\classes\uk\ac\dundee\computing\richardgoodman\banter\Login.java:55: cannot find symbol
+[15:13:57.211] symbol  : variable userBean
+[15:13:57.211] location: class uk.ac.dundee.computing.richardgoodman.banter.Login
+[15:13:57.211] 		userBean.getUsername();
+[15:13:57.211]                 ^
+[15:13:57.211] 1 error
+[15:14:07.008] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[15:14:07.149] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[15:14:15.164] Compiling uk/ac/dundee/computing/richardgoodman/banter/Login.java
+[15:14:15.461] Compiling _jsp/_index__jsp.java
+[15:14:15.914] resin-file: init
+[15:14:48.852] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[15:14:48.852] resin-file: destroy
+[15:14:48.992] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[15:14:49.039] Compiling _jsp/_index__jsp.java
+[15:14:49.492] resin-file: init
+[15:24:27.738] Compiling _jsp/_index__jsp.java
+[15:26:21.972] Compiling _jsp/_compose__jsp.java
+[15:27:17.909] Compiling _jsp/_compose__jsp.java
+[15:28:42.159] Compiling _jsp/_compose__jsp.java
+[15:47:52.964] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[15:47:52.964] resin-file: destroy
+[15:47:53.120] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[15:48:34.573] Login: init
+[15:48:44.995] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[15:48:44.995] Login: destroy
+[15:48:45.213] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[15:48:45.260] resin-file: init
+[15:51:59.212] Compiling _jsp/_login__jsp.java
+[15:53:19.009] Compiling _jsp/_login__jsp.java
+[15:55:45.508] Compiling _jsp/_login__jsp.java
+[15:55:46.742] Compiling _jsp/_createaccount__jsp.java
+[16:22:48.419] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[16:22:48.419] resin-file: destroy
+[16:25:33.199] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[16:25:33.231] Compiling _jsp/_index__jsp.java
+[16:25:33.715] resin-file: init
+[16:28:46.058] Compiling _jsp/_index__jsp.java
+[16:37:40.335] Compiling _jsp/_login__jsp.java
+[16:37:48.023] Login: init
+[16:42:21.521] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[16:42:21.521] resin-file: destroy
+[16:42:21.521] Login: destroy
+[16:42:22.021] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[16:42:29.271] Login: init
+[16:57:24.047] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[16:57:24.047] Login: destroy
+[16:57:24.234] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[16:59:02.390] Compiling _jsp/_index__jsp.java
+[16:59:02.827] resin-file: init
+[16:59:14.718] Login: init
+[16:59:36.030] Create: init
+com.mysql.jdbc.exceptions.MySQLIntegrityConstraintViolationException: Duplicate entry 'scragsy' for key 3[17:02:39.154] Compiling _jsp/_index__jsp.java
+[17:02:39.169] /index.jsp:18: ')' expected
+[17:02:39.169]        loginBean currentUser = (loginBean (session.getAttribute("currentSessionUser"));
+[17:02:39.169]                                                                                       ^
+[17:02:39.169] 1 error
+[17:02:55.998] Compiling _jsp/_index__jsp.java
+[17:02:56.404] /index.jsp:18: cannot find symbol
+[17:02:56.404] symbol  : class loginBean
+[17:02:56.404] location: class _jsp._index__jsp
+[17:02:56.404]        loginBean currentUser = (loginBean (session.getAttribute("currentSessionUser")));
+[17:02:56.404]        ^
+[17:02:56.404] /index.jsp:18: cannot find symbol
+[17:02:56.404] symbol  : method loginBean(java.lang.Object)
+[17:02:56.404] location: class _jsp._index__jsp
+[17:02:56.404]        loginBean currentUser = (loginBean (session.getAttribute("currentSessionUser")));
+[17:02:56.404]                                 ^
+[17:02:56.404] 2 errors
+[17:03:21.372] Compiling _jsp/_index__jsp.java
+[17:03:21.716] /index.jsp:18: cannot find symbol
+[17:03:21.716] symbol  : class LoginBean
+[17:03:21.716] location: class _jsp._index__jsp
+[17:03:21.716]        LoginBean currentUser = (LoginBean (session.getAttribute("currentSessionUser")));
+[17:03:21.716]        ^
+[17:03:21.716] /index.jsp:18: cannot find symbol
+[17:03:21.716] symbol  : method LoginBean(java.lang.Object)
+[17:03:21.716] location: class _jsp._index__jsp
+[17:03:21.716]        LoginBean currentUser = (LoginBean (session.getAttribute("currentSessionUser")));
+[17:03:21.716]                                 ^
+[17:03:21.716] 2 errors
+[17:03:23.794] Compiling _jsp/_index__jsp.java
+[17:03:24.138] /index.jsp:18: cannot find symbol
+[17:03:24.138] symbol  : class LoginBean
+[17:03:24.138] location: class _jsp._index__jsp
+[17:03:24.138]        LoginBean currentUser = (LoginBean (session.getAttribute("currentSessionUser")));
+[17:03:24.138]        ^
+[17:03:24.138] /index.jsp:18: cannot find symbol
+[17:03:24.138] symbol  : method LoginBean(java.lang.Object)
+[17:03:24.138] location: class _jsp._index__jsp
+[17:03:24.138]        LoginBean currentUser = (LoginBean (session.getAttribute("currentSessionUser")));
+[17:03:24.138]                                 ^
+[17:03:24.138] 2 errors
+[17:04:37.169] Compiling _jsp/_index__jsp.java
+[17:09:33.276] Compiling _jsp/_index__jsp.java
+[17:10:12.588] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[17:10:12.588] resin-file: destroy
+[17:10:12.588] Login: destroy
+[17:10:12.588] Create: destroy
+[17:10:12.745] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[17:10:21.620] Login: init
+[17:11:12.385] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[17:11:12.385] Login: destroy
+[17:11:12.979] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[17:14:27.899] Login: init
+[17:14:59.634] Compiling _jsp/_contact__jsp.java
+[17:23:19.287] Compiling _jsp/_index__jsp.java
+[17:23:19.755] resin-file: init
+[17:25:51.004] unknown JSP <jsp:getAttribute>
+[17:31:47.549] Compiling uk/ac/dundee/computing/richardgoodman/banter/LoginBean.java
+[17:31:47.846] Compiling _jsp/_index__jsp.java
+[17:31:52.283] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[17:31:52.283] resin-file: destroy
+[17:31:52.283] Login: destroy
+[17:31:52.455] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[17:31:57.752] Login: init
+[17:47:53.886] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[17:47:53.886] Login: destroy
+[17:48:37.339] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[17:48:37.386] resin-file: init
+[17:49:36.901] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[17:49:36.901] resin-file: destroy
+[17:49:37.042] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[17:56:08.540] Compiling _jsp/_index__jsp.java
+[17:56:08.899] /index.jsp:20: cannot find symbol
+[17:56:08.899] symbol  : variable req
+[17:56:08.899] location: class _jsp._index__jsp
+[17:56:08.899] 		String username = req.getParameter("userName");
+[17:56:08.899]                                   ^
+[17:56:08.899] 1 error
+[17:56:30.930] Compiling _jsp/_index__jsp.java
+[17:56:31.414] resin-file: init
+[17:58:04.601] Compiling _jsp/_index__jsp.java
+[17:58:15.711] /index.jsp:55: `userBean' is not a declared bean.  Beans used in <jsp:getProperty> must be declared in a <jsp:useBean>.
+[17:58:30.648] /index.jsp:33: `loginBean' is not a declared bean.  Beans used in <jsp:getProperty> must be declared in a <jsp:useBean>.
+[17:58:49.226] /index.jsp:33: `loginBean' is not a declared bean.  Beans used in <jsp:getProperty> must be declared in a <jsp:useBean>.
+[17:59:08.476] Compiling _jsp/_index__jsp.java
+[18:11:56.502] Compiling _jsp/_index__jsp.java
+[18:11:59.112] Compiling _jsp/_login__jsp.java
+[18:11:59.127] /Login.jsp:42: ')' expected
+[18:11:59.127]       out.print(( session.getAttribute("username");
+[18:11:59.127]                                                   ^
+[18:11:59.127] /Login.jsp:44: illegal start of type
+[18:11:59.127]                       </article>
+[18:11:59.127]                        ^
+[18:11:59.127] d:\www\2012-ac31004\richardgoodman\WEB-INF\work\_jsp\_login__jsp.java:44: > expected
+[18:11:59.127]       </html>));
+[18:11:59.127]                ^
+[18:11:59.127] 3 errors
+[18:12:18.924] Compiling _jsp/_login__jsp.java
+[18:12:18.940] /Login.jsp:42: ')' expected
+[18:12:18.940]       out.print(( session.getAttribute("username"); ));
+[18:12:18.940]                                                   ^
+[18:12:18.940] /Login.jsp:42: illegal start of expression
+[18:12:18.940]       out.print(( session.getAttribute("username"); ));
+[18:12:18.940]                                                     ^
+[18:12:18.940] 2 errors
+[18:12:29.986] Compiling _jsp/_login__jsp.java
+[18:12:30.315] /Login.jsp:2: cannot find symbol
+[18:12:30.315] symbol  : variable req
+[18:12:30.315] location: class _jsp._login__jsp
+[18:12:30.315] 	String Username = req.getParameter("userName");
+[18:12:30.315]                           ^
+[18:12:30.315] 1 error
+[18:12:42.314] Compiling _jsp/_login__jsp.java
+[18:13:53.970] Compiling _jsp/_index__jsp.java
+[18:16:22.922] Compiling _jsp/_login__jsp.java
+[18:19:20.671] Compiling _jsp/_index__jsp.java
+[18:20:24.593] Compiling _jsp/_login__jsp.java
+[18:20:29.108] Login: init
+[18:24:19.201] Compiling _jsp/_index__jsp.java
+[18:24:31.732] Compiling _jsp/_index__jsp.java
+[18:33:02.916] Compiling _jsp/_index__jsp.java
+[18:33:03.244] /index.jsp:2: cannot find symbol
+[18:33:03.244] symbol  : method geAttribute(java.lang.String)
+[18:33:03.244] location: interface javax.servlet.http.HttpSession
+[18:33:03.244] 	if(session.geAttribute("username") != null)
+[18:33:03.244]                   ^
+[18:33:03.244] 1 error
+[18:33:28.619] Compiling _jsp/_index__jsp.java
+[18:33:28.978] /index.jsp:2: cannot find symbol
+[18:33:28.978] symbol  : method geAttribute(java.lang.String)
+[18:33:28.978] location: interface javax.servlet.http.HttpSession
+[18:33:28.978] 	if(session.geAttribute("username") != null)
+[18:33:28.978]                   ^
+[18:33:28.978] 1 error
+[18:33:40.869] Compiling _jsp/_index__jsp.java
+[18:33:42.760] Compiling _jsp/_login__jsp.java
+[18:34:07.728] Compiling _jsp/_index__jsp.java
+[18:34:29.369] Compiling _jsp/_index__jsp.java
+[18:35:08.650] Compiling _jsp/_index__jsp.java
+[18:49:11.754] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] stopping
+[18:49:11.754] resin-file: destroy
+[18:49:11.754] Login: destroy
+[18:49:11.894] WebApp[http://ac31004.computing.dundee.ac.uk/richardgoodman] starting
+[19:32:35.846] resin-file: init
+[19:33:03.611] Login: init

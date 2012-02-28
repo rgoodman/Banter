@@ -1,0 +1,98 @@
+<web-app xmlns="http://caucho.com/ns/resin"
+         xmlns:resin="http://caucho.com/ns/resin/core">
+<class-loader>
+    <simple-loader path="WEB-INF/classes"/>
+    <compiling-loader path="WEB-INF/classes" source="WEB-INF/classes"/>
+  </class-loader>
+  
+  <servlet>
+  	<servlet-name>Login</servlet-name>
+		<servlet-class>uk.ac.dundee.computing.richardgoodman.banter.Login</servlet-class>
+	</servlet>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>Logout</servlet-name>
+		<servlet-class>uk.ac.dundee.computing.richardgoodman.banter.Logout</servlet-class>
+	</servlet>
+  <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>Create</servlet-name>
+		<servlet-class>uk.ac.dundee.computing.richardgoodman.banter.Signup</servlet-class>
+	</servlet>
+  <servlet-mapping>
+    <servlet-name>Create</servlet-name>
+    <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>Compose</servlet-name>
+		<servlet-class>uk.ac.dundee.computing.richardgoodman.banter.Compose</servlet-class>
+	</servlet>
+  <servlet-mapping>
+    <servlet-name>Compose</servlet-name>
+    <url-pattern>/compose</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>Newsfeed</servlet-name>
+		<servlet-class>uk.ac.dundee.computing.richardgoodman.banter.Newsfeed</servlet-class>
+	</servlet>
+  <servlet-mapping>
+    <servlet-name>Newsfeed</servlet-name>
+    <url-pattern>/newsfeed</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>ManageProfile</servlet-name>
+		<servlet-class>uk.ac.dundee.computing.richardgoodman.banter.ManageProfile</servlet-class>
+	</servlet>
+  <servlet-mapping>
+    <servlet-name>ManageProfile</servlet-name>
+    <url-pattern>/manageprofile</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>Profile</servlet-name>
+		<servlet-class>uk.ac.dundee.computing.richardgoodman.banter.Profile</servlet-class>
+	</servlet>
+  <servlet-mapping>
+    <servlet-name>Profile</servlet-name>
+    <url-pattern>/profile/*</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>Delete</servlet-name>
+		<servlet-class>uk.ac.dundee.computing.richardgoodman.banter.Delete</servlet-class>
+	</servlet>
+  <servlet-mapping>
+    <servlet-name>Delete</servlet-name>
+    <url-pattern>/delete/*</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>Followers</servlet-name>
+		<servlet-class>uk.ac.dundee.computing.richardgoodman.banter.Followers</servlet-class>
+	</servlet>
+  <servlet-mapping>
+    <servlet-name>Followers</servlet-name>
+    <url-pattern>/followers</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>Following</servlet-name>
+		<servlet-class>uk.ac.dundee.computing.richardgoodman.banter.Following</servlet-class>
+	</servlet>
+  <servlet-mapping>
+    <servlet-name>Following</servlet-name>
+    <url-pattern>/following</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

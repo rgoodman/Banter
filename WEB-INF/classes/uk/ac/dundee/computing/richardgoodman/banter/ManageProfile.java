@@ -9,6 +9,8 @@ import java.util.Date;
 
 public class ManageProfile extends HttpServlet
 { 
+	static Connection MyConnection = null;
+
 	public void doPost(HttpServletRequest req, HttpServletResponse res) throws ServletException,IOException
 	{		
 		HttpSession currentSession = req.getSession(true);
@@ -26,30 +28,20 @@ public class ManageProfile extends HttpServlet
 
 		try 
 		{
-			Class.forName("org.gjt.mm.mysql.Driver");
-			Connection MyConnection = DriverManager.getConnection("jdbc:mysql://arlia.computing.dundee.ac.uk/richardgoodman","richardgoodman","ac31004");
-			Statement st = MyConnection.createStatement();
-			//ResultSet rs;
-			
-			String searchQuery = "UPDATE account SET FirstName = '" 
-									+ FirstName + 
-									"', Surname = '" 
-									+ Surname + 
-									"', EmailAddress = '" 
-									+ EmailAddress + 
-									"', City = '" 
-									+ City + 
-									"', Country = '" 
-									+ Country + 
-									"', Image = '" 
-									+ Image + 
-									"', Homepage = '" 
-									+ Homepage + 
-									"', Biography = '" 
-									+ Biography + 
-									"' WHERE AccountID = '" + accountID + "'";
+			MyConnection = DatabaseConnectionBean.makeConnection();			
+			String searchQuery = "UPDATE account SET FirstName = ? , Surname = ? , EmailAddress = ? , City = ? , Country = ? , Image = ? , Homepage = ? , Biography = ? WHERE AccountID = ? ";
+			PreparedStatement pstmt = MyConnection.prepareStatement( searchQuery );
+			pstmt.setString( 1, FirstName );
+			pstmt.setString( 2, Surname );
+			pstmt.setString( 3, EmailAddress );
+			pstmt.setString( 4, City );
+			pstmt.setString( 5, Country );
+			pstmt.setString( 6, Image );
+			pstmt.setString( 7, Homepage );
+			pstmt.setString( 8, Biography );
+			pstmt.setInt( 9, accountID );
+			pstmt.executeUpdate();
 									
-			st.executeUpdate(searchQuery);
 			MyConnection.close();
 			
 			userBean.setFirstName(FirstName);

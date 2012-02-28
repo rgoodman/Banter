@@ -9,6 +9,8 @@ import java.util.*;
 
 public class Followers extends HttpServlet
 { 
+	static Connection MyConnection = null;
+
 	public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException,IOException
 	{
 		HttpSession currentSession = req.getSession(true);
@@ -17,9 +19,7 @@ public class Followers extends HttpServlet
 		
 		try 
 		{
-			Class.forName("org.gjt.mm.mysql.Driver");
-			Connection MyConnection = DriverManager.getConnection("jdbc:mysql://arlia.computing.dundee.ac.uk/richardgoodman","richardgoodman","ac31004");
-			
+			MyConnection = DatabaseConnectionBean.makeConnection();
 			String searchQuery = "SELECT * FROM friendship JOIN account ON friendship.ReaderID = account.AccountID WHERE friendship.PosterID = ? ";
 			PreparedStatement pstmt = MyConnection.prepareStatement( searchQuery );
 			pstmt.setInt( 1, userBean.getAccountID());

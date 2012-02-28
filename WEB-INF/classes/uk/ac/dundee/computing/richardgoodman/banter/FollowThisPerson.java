@@ -21,9 +21,9 @@ public class FollowThisPerson extends HttpServlet
 		String profileURL = req.getRequestURI();
 		System.out.println(profileURL);
 		
-		if (profileURL.length() > 24)
+		if (profileURL.length() > 23)
 		{
-			Profile = profileURL.substring(24);
+			Profile = profileURL.substring(23);
 		}
 		else
 		{
@@ -37,11 +37,11 @@ public class FollowThisPerson extends HttpServlet
 			Class.forName("org.gjt.mm.mysql.Driver");
 			Connection MyConnection = DriverManager.getConnection("jdbc:mysql://arlia.computing.dundee.ac.uk/richardgoodman","richardgoodman","ac31004");
 			
-			String findProfileQuery = "SELECT AccountID from account WHERE Username = ? ";
+			String findProfileQuery = "SELECT * from account WHERE Username = ? ";
 			PreparedStatement pstmt = MyConnection.prepareStatement( findProfileQuery );
 			pstmt.setString( 1, Profile );
 			ResultSet rs = pstmt.executeQuery();
-			
+			System.out.println("1");
 			if (rs.next())
 			{
 				ProfileID = rs.getInt("AccountID");
@@ -59,23 +59,25 @@ public class FollowThisPerson extends HttpServlet
 			pstmt.setInt( 1, ProfileID);
 			pstmt.setInt( 2, userID);
 			rs = pstmt.executeQuery();
+			System.out.println("2");
 			
 			if (rs.next())
 			{
-				String delQuery = "DELETE FROM friendship WHERE PosterID = ? AND ReaderID = ? ";
-				pstmt = MyConnection.prepareStatement( delQuery );
+				String deleteQuery = "DELETE FROM friendship WHERE PosterID = ? AND ReaderID = ? ";
+				pstmt = MyConnection.prepareStatement( deleteQuery );
 				pstmt.setInt( 1, ProfileID);
 				pstmt.setInt( 2, userID);
-				pstmt.executeUpdate();
+				pstmt.executeUpdate();System.out.println("3");
 				errorBean.setErrorMessage("You have unfollowed " + Profile);
 			}
 			else
 			{
-				String addQuery = "INSERT INTO friendship WHERE PosterID = ? AND ReaderID = ? ";
+				String addQuery = "INSERT INTO friendship (PosterID, ReaderID) VALUES ( ? , ? ) ";
 				pstmt = MyConnection.prepareStatement( addQuery );
 				pstmt.setInt( 1, ProfileID);
 				pstmt.setInt( 2, userID);
 				pstmt.executeUpdate();
+				System.out.println("3");
 				errorBean.setErrorMessage("You are now following " + Profile);
 			}
 			

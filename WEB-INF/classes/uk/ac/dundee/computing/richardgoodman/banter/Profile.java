@@ -13,6 +13,7 @@ import javax.naming.NamingException;
 public class Profile extends HttpServlet
 { 	
 	private static final String Pathname = "../";
+	static Connection MyConnection = null;
 
 	public void doGet(HttpServletRequest req, HttpServletResponse res) throws java.io.IOException, ServletException
 	{
@@ -41,9 +42,7 @@ public class Profile extends HttpServlet
 		
 		try 
 		{
-			Class.forName("org.gjt.mm.mysql.Driver");
-			Connection MyConnection = DriverManager.getConnection("jdbc:mysql://arlia.computing.dundee.ac.uk/richardgoodman","richardgoodman","ac31004");
-			
+			MyConnection = DatabaseConnectionBean.makeConnection();
 			String searchQuery = "SELECT * FROM account WHERE Username = ? ";
 			PreparedStatement pstmt = MyConnection.prepareStatement( searchQuery );
 			pstmt.setString( 1, Username);
@@ -115,9 +114,7 @@ public class Profile extends HttpServlet
 		
 		try 
 		{
-			Class.forName("org.gjt.mm.mysql.Driver");
-			Connection MyConnection = DriverManager.getConnection("jdbc:mysql://arlia.computing.dundee.ac.uk/richardgoodman","richardgoodman","ac31004");
-				
+			MyConnection = DatabaseConnectionBean.makeConnection();
 			String searchQuery = "SELECT * FROM account WHERE Username = ? ";
 			PreparedStatement pstmt = MyConnection.prepareStatement( searchQuery );
 			pstmt.setString( 1, Username);

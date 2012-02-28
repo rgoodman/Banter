@@ -46,19 +46,19 @@ if (userBean.getUsername() == null)
 				<h2>Manage Your Profile</h2>
                     <form name="manageprofileform" method="post" action="ManageProfile">
 					<br><br>
-					<span class="inputTitle">First Name: </span><input type="text" name="firstName" value="<%= userBean.getFirstName() %>">
+					<span class="inputTitle">First Name: </span><input class="manageProfileBox" type="text" name="firstName" value="<%= userBean.getFirstName() %>">
 					<br><br>
-					<span class="inputTitle">Surname: </span><input type="text" name="surname" value="<%= userBean.getSurname() %>">
+					<span class="inputTitle">Surname: </span><input class="manageProfileBox" type="text" name="surname" value="<%= userBean.getSurname() %>">
 					<br><br>
-					<span class="inputTitle">Email Address: </span><input type="text" name="email" value="<%= userBean.getEmail() %>">
+					<span class="inputTitle">Email Address: </span><input class="manageProfileBox" type="text" name="email" value="<%= userBean.getEmail() %>">
 					<br><br>
-					<span class="inputTitle">City: </span><input type="text" name="city" value="<%= userBean.getCity() %>">
+					<span class="inputTitle">City: </span><input class="manageProfileBox" type="text" name="city" value="<%= userBean.getCity() %>">
 					<br><br>
-					<span class="inputTitle">Country: </span><input type="text" name="country" value="<%= userBean.getCountry() %>">
+					<span class="inputTitle">Country: </span><input class="manageProfileBox" type="text" name="country" value="<%= userBean.getCountry() %>">
 					<br><br>
-					<span class="inputTitle">Website: </span><input type="text" name="websiteURL" value="<%= userBean.getHomepage() %>">
+					<span class="inputTitle">Website: </span><input class="manageProfileBox" type="text" name="websiteURL" value="<%= userBean.getHomepage() %>">
 					<br><br>
-					<span class="inputTitle">Avatar Location: </span><input type="text" name="image" value="<%= userBean.getImage() %>">
+					<span class="inputTitle">Avatar Location: </span><input class="manageProfileBox" type="text" name="image" value="<%= userBean.getImage() %>">
 					<br><br>
 					<span class="inputTitle">Biography: </span><textarea id="biography" rows="6" cols="40" name="biography"><%= userBean.getBiography() %></textarea>
 					<br><br>

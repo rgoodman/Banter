@@ -10,6 +10,8 @@ import org.apache.commons.lang.*;
 
 public class Compose extends HttpServlet
 { 
+	static Connection MyConnection = null;
+
 	public void doPost(HttpServletRequest req, HttpServletResponse res) throws ServletException,IOException
 	{
 		HttpSession currentSession = req.getSession(true);
@@ -32,9 +34,7 @@ public class Compose extends HttpServlet
 		
 		try 
 		{
-			Class.forName("org.gjt.mm.mysql.Driver");
-			Connection MyConnection = DriverManager.getConnection("jdbc:mysql://arlia.computing.dundee.ac.uk/richardgoodman","richardgoodman","ac31004");
-			
+			MyConnection = DatabaseConnectionBean.makeConnection();
 			String searchQuery = "INSERT INTO tweet (AccountID, Message) VALUES ( ? , ? )";
 			PreparedStatement pstmt = MyConnection.prepareStatement( searchQuery );
 			pstmt.setInt( 1, accountID);

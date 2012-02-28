@@ -9,6 +9,8 @@ import java.util.*;
 
 public class Delete extends HttpServlet
 { 
+	static Connection MyConnection = null;
+
 	public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException,IOException
 	{		
 		HttpSession currentSession = req.getSession(true);
@@ -33,9 +35,7 @@ public class Delete extends HttpServlet
 		
 		try 
 		{
-			Class.forName("org.gjt.mm.mysql.Driver");
-			Connection MyConnection = DriverManager.getConnection("jdbc:mysql://arlia.computing.dundee.ac.uk/richardgoodman","richardgoodman","ac31004");
-			
+			MyConnection = DatabaseConnectionBean.makeConnection();
 			String searchQuery = "SELECT * FROM tweet WHERE AccountID = ? AND TweetID = ? ";
 			PreparedStatement pstmt = MyConnection.prepareStatement( searchQuery );
 			pstmt.setInt( 1, userBean.getAccountID());

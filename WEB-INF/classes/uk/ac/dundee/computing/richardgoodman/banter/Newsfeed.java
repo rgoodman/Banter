@@ -11,6 +11,8 @@ import org.apache.commons.lang.StringEscapeUtils;
 
 public class Newsfeed extends HttpServlet
 { 
+	static Connection MyConnection = null;
+
 	public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException,IOException
 	{		
 		HttpSession currentSession = req.getSession(true);
@@ -22,9 +24,7 @@ public class Newsfeed extends HttpServlet
 		
 		try 
 		{
-			Class.forName("org.gjt.mm.mysql.Driver");
-			Connection MyConnection = DriverManager.getConnection("jdbc:mysql://arlia.computing.dundee.ac.uk/richardgoodman","richardgoodman","ac31004");
-			
+			MyConnection = DatabaseConnectionBean.makeConnection();
 			String searchQuery = "SELECT * FROM tweet JOIN account ON tweet.AccountID = account.AccountID WHERE tweet.AccountID IN (SELECT PosterID FROM tweet JOIN friendship ON tweet.AccountID = friendship.ReaderID WHERE friendship.ReaderID = ? ) OR tweet.AccountID = ? ORDER BY tweet.TimePosted DESC";
 			PreparedStatement pstmt = MyConnection.prepareStatement( searchQuery );
 			pstmt.setInt( 1, userBean.getAccountID());

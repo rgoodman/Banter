@@ -124,7 +124,7 @@ if (userBean.getUsername() != null)
     String resourcePath = loader.getResourcePathSpecificFirst();
     mergePath.addClassPath(resourcePath);
     com.caucho.vfs.Depend depend;
-    depend = new com.caucho.vfs.Depend(appDir.lookup("login.jsp"), 7393240350168285991L, false);
+    depend = new com.caucho.vfs.Depend(appDir.lookup("login.jsp"), -3899710889443536447L, false);
     com.caucho.jsp.JavaPage.addDepend(_caucho_depends, depend);
   }
 
@@ -134,7 +134,7 @@ if (userBean.getUsername() != null)
   private final static char []_jsp_string0;
   private final static char []_jsp_string2;
   static {
-    _jsp_string4 = "\r\n					<br><br>\r\n					<span class=\"inputTitle\">Username: </span><input id=\"username\" type=\"text\" name=\"userName\" value=\"admin\">\r\n					<br><br>\r\n					<span class=\"inputTitle\">Password: </span><input id=\"password\" type=\"password\" name=\"password\" value=\"admin\">\r\n					<br><br><input type=\"submit\" name=\"Submit\" value=\"Submit\">\r\n					</form>\r\n                </article>\r\n            </section>\r\n        </section>\r\n    </div>\r\n</body>\r\n</html>".toCharArray();
+    _jsp_string4 = "\r\n					<br><br>\r\n					<span class=\"inputTitle\">Username: </span><input id=\"username\" type=\"text\" name=\"userName\">\r\n					<br><br>\r\n					<span class=\"inputTitle\">Password: </span><input id=\"password\" type=\"password\" name=\"password\">\r\n					<br><br><input type=\"submit\" name=\"Submit\" value=\"Submit\">\r\n					</form>\r\n                </article>\r\n            </section>\r\n        </section>\r\n    </div>\r\n</body>\r\n</html>".toCharArray();
     _jsp_string1 = "\r\n<!doctype html>\r\n<head>\r\n<title>Banter - A Simple Twitter Clone</title>\r\n<meta charset=\"utf-8\" />\r\n<link rel=\"icon\" href=\"images/B.ico\" type=\"x-icon\"/>\r\n<link rel=\"stylesheet\" href=\"css/style.css\" type=\"text/css\"/>\r\n</head>\r\n<body>	\r\n	<div id=\"wrapper\">\r\n        <header>\r\n			<a href=\"index.jsp\"><img alt=\"\" src=\"images/banter logo (2).png\" />\r\n			<h1><a title=\"Banter - A Simple Twitter Clone\">Banter - A Simple Twitter Clone</a></h1>\r\n        </header>\r\n		<nav>\r\n            <ul class=\"menu\">\r\n                <li><a class=\"active\" title=\"Log in\" href=\"login\">Login</a></li>\r\n				<li><a title=\"Create an Account\" href=\"register\">Signup</a></li>\r\n            </ul>\r\n        </nav>\r\n        <section id=\"main\" class=\"clearfix\">\r\n            <section id=\"content\">\r\n                <article class=\"initialform\">\r\n				<h2 id=\"nowraptitle\">Please login to use the site!</h2>\r\n                    <form name=\"loginform\" method=\"post\" action=\"Login\">\r\n					".toCharArray();
     _jsp_string3 = "\r\n					".toCharArray();
     _jsp_string0 = "\r\n".toCharArray();

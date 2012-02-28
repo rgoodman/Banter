@@ -193,6 +193,11 @@ textarea
 	text-align: center;
 }
 
+.manageProfileBox
+{
+	width: 300px;
+}
+
 #counter
 {
 	background: none;

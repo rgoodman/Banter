@@ -51,9 +51,9 @@ if (userBean.getUsername() != null)
 						}
 					%>
 					<br><br>
-					<span class="inputTitle">Username: </span><input id="username" type="text" name="userName" value="admin">
+					<span class="inputTitle">Username: </span><input id="username" type="text" name="userName">
 					<br><br>
-					<span class="inputTitle">Password: </span><input id="password" type="password" name="password" value="admin">
+					<span class="inputTitle">Password: </span><input id="password" type="password" name="password">
 					<br><br><input type="submit" name="Submit" value="Submit">
 					</form>
                 </article>

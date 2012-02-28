@@ -33,7 +33,7 @@ public class _follow__jsp extends com.caucho.jsp.JavaPage{
           out.write(_jsp_string0, 0, _jsp_string0.length);
         }
       }
-      out.write(_jsp_string1, 0, _jsp_string1.length);
+      out.write(_jsp_string0, 0, _jsp_string0.length);
       uk.ac.dundee.computing.richardgoodman.banter.FriendshipBean friendshipBean;
       synchronized (session) {
         friendshipBean = (uk.ac.dundee.computing.richardgoodman.banter.FriendshipBean) session.getAttribute("friendshipBean");
@@ -43,44 +43,43 @@ public class _follow__jsp extends com.caucho.jsp.JavaPage{
           out.write(_jsp_string0, 0, _jsp_string0.length);
         }
       }
-      out.write(_jsp_string1, 0, _jsp_string1.length);
+      out.write(_jsp_string0, 0, _jsp_string0.length);
       
 if (userBean.getUsername() == null)
 {
 	response.sendRedirect("login");
 }
 
-      out.write(_jsp_string2, 0, _jsp_string2.length);
+      out.write(_jsp_string1, 0, _jsp_string1.length);
       out.print(( userBean.getImage() ));
-      out.write(_jsp_string3, 0, _jsp_string3.length);
+      out.write(_jsp_string2, 0, _jsp_string2.length);
       out.print(( userBean.getUsername() ));
-      out.write(_jsp_string4, 0, _jsp_string4.length);
+      out.write(_jsp_string3, 0, _jsp_string3.length);
       out.print(( friendshipBean.getPageTitle() ));
-      out.write(_jsp_string5, 0, _jsp_string5.length);
+      out.write(_jsp_string4, 0, _jsp_string4.length);
       
 						if (friendshipBean.getSize() <= 0)
 						{
-							out.println("You have no followers.");
 						}
 						else
 						{
 							for(int i = 0; i < friendshipBean.getSize(); i++)
 							{
 					
+      out.write(_jsp_string5, 0, _jsp_string5.length);
+      out.print(( friendshipBean.getUsernames(i) ));
       out.write(_jsp_string6, 0, _jsp_string6.length);
       out.print(( friendshipBean.getUsernames(i) ));
       out.write(_jsp_string7, 0, _jsp_string7.length);
-      out.print(( friendshipBean.getUsernames(i) ));
-      out.write(_jsp_string8, 0, _jsp_string8.length);
       out.print(( friendshipBean.getImages(i) ));
-      out.write(_jsp_string9, 0, _jsp_string9.length);
+      out.write(_jsp_string8, 0, _jsp_string8.length);
       out.print(( friendshipBean.getBiographies(i) ));
-      out.write(_jsp_string10, 0, _jsp_string10.length);
+      out.write(_jsp_string9, 0, _jsp_string9.length);
       
 							}
 						}
 					
-      out.write(_jsp_string11, 0, _jsp_string11.length);
+      out.write(_jsp_string10, 0, _jsp_string10.length);
     } catch (java.lang.Throwable _jsp_e) {
       pageContext.handlePageException(_jsp_e);
     } finally {
@@ -139,34 +138,32 @@ if (userBean.getUsername() == null)
     String resourcePath = loader.getResourcePathSpecificFirst();
     mergePath.addClassPath(resourcePath);
     com.caucho.vfs.Depend depend;
-    depend = new com.caucho.vfs.Depend(appDir.lookup("Follow.jsp"), 1420215067266834470L, false);
+    depend = new com.caucho.vfs.Depend(appDir.lookup("Follow.jsp"), 5095593779977736266L, false);
     com.caucho.jsp.JavaPage.addDepend(_caucho_depends, depend);
   }
 
+  private final static char []_jsp_string9;
+  private final static char []_jsp_string2;
+  private final static char []_jsp_string4;
+  private final static char []_jsp_string1;
   private final static char []_jsp_string3;
+  private final static char []_jsp_string7;
+  private final static char []_jsp_string8;
   private final static char []_jsp_string10;
   private final static char []_jsp_string5;
-  private final static char []_jsp_string4;
-  private final static char []_jsp_string9;
-  private final static char []_jsp_string8;
-  private final static char []_jsp_string11;
   private final static char []_jsp_string6;
-  private final static char []_jsp_string1;
-  private final static char []_jsp_string2;
-  private final static char []_jsp_string7;
   private final static char []_jsp_string0;
   static {
-    _jsp_string3 = "\" width=\"100\" height=\"100\"/>\r\n				<h3>".toCharArray();
-    _jsp_string10 = "\r\n									<br><br><hr /><br>\r\n								</div>\r\n					".toCharArray();
-    _jsp_string5 = "</u></h1>\r\n					".toCharArray();
-    _jsp_string4 = "'s Profile</h3>\r\n                <ul class=\"clearfix\">\r\n                    <li><a title=\"Home\" href=\"Newsfeed\">Home</a></li>\r\n					<li><a title=\"View Profiles\" href=\"Profile\">View Profiles</a></li>\r\n					<li><a title=\"Manage Your Profile\" href=\"ManageProfile\">Manage Your Profile</a></li>\r\n                    <li><a title=\"Post Some Banter\" href=\"Compose\">Post Some Banter</a></li>\r\n                    <li><a title=\"Who Is Following You\" href=\"Followers\">Who Is Following You</a></li>\r\n                    <li><a title=\"Who You Are Following\" href=\"Following\">Who You Are Following</a></li>\r\n					<li><a title=\"Logout\" href=\"logout\">Logout</a></li>\r\n                </ul>\r\n            </aside>\r\n            <section id=\"content\">\r\n                <article>\r\n					<h1><u>".toCharArray();
-    _jsp_string9 = "\"/>\r\n									<br>Biography: ".toCharArray();
-    _jsp_string8 = "</a></h5>\r\n									<img src=\"".toCharArray();
-    _jsp_string11 = "\r\n					<br><hr /><br>\r\n                </article>\r\n            </section>\r\n        </section>\r\n    </div>\r\n</body>\r\n</html>\r\n".toCharArray();
-    _jsp_string6 = "\r\n								<div class=\"post\">\r\n									<h5><a href=\"/richardgoodman/Profile/".toCharArray();
-    _jsp_string1 = "\r\n\r\n".toCharArray();
-    _jsp_string2 = "\r\n\r\n<!doctype html>\r\n<html lang=\"en\">\r\n<head>\r\n<title>Banter - A Simple Twitter Clone</title>\r\n<meta name=\"keywords\" content=\" \" />\r\n<meta name=\"description\" content=\" \" />\r\n<meta charset=\"utf-8\" />\r\n<link rel=\"icon\" href=\"images/B.ico\" type=\"x-icon\"/>\r\n<link rel=\"stylesheet\" href=\"css/style.css\" type=\"text/css\" media=\"screen\" />\r\n</head>\r\n<body>	\r\n	<div id=\"wrapper\">     \r\n        <header>\r\n			<a href=\"index.jsp\"><img alt=\"\" src=\"images/banter logo (2).png\" />\r\n			<h1><a title=\"Banter - A Simple Twitter Clone\">Banter - A Simple Twitter Clone</a></h1>\r\n        </header>\r\n        <section id=\"main\" class=\"clearfix\">\r\n            <aside id=\"sidebar\">\r\n				<img alt=\"No Avatar\" src=\"".toCharArray();
-    _jsp_string7 = "\">".toCharArray();
+    _jsp_string9 = "\r\n									<br><br><hr /><br>\r\n								</div>\r\n					".toCharArray();
+    _jsp_string2 = "\"/>\r\n				<h3>".toCharArray();
+    _jsp_string4 = "</u></h1>\r\n					".toCharArray();
+    _jsp_string1 = "\r\n<!doctype html>\r\n<head>\r\n<title>Banter - A Simple Twitter Clone</title>\r\n<meta charset=\"utf-8\" />\r\n<link rel=\"icon\" href=\"images/B.ico\" type=\"x-icon\"/>\r\n<link rel=\"stylesheet\" href=\"css/style.css\" type=\"text/css\"/>\r\n</head>\r\n<body>	\r\n	<div id=\"wrapper\">     \r\n        <header>\r\n			<a href=\"index.jsp\"><img alt=\"\" src=\"images/banter logo (2).png\" />\r\n			<h1><a title=\"Banter - A Simple Twitter Clone\">Banter - A Simple Twitter Clone</a></h1>\r\n        </header>\r\n        <section id=\"main\" class=\"clearfix\">\r\n            <aside id=\"sidebar\">\r\n				<img class=\"userImage\" src=\"".toCharArray();
+    _jsp_string3 = "'s Profile</h3>\r\n                <ul class=\"clearfix\">\r\n                    <li><a title=\"Home\" href=\"Newsfeed\">Home</a></li>\r\n					<li><a title=\"View Profiles\" href=\"Profile\">View Profiles</a></li>\r\n					<li><a title=\"Manage Your Profile\" href=\"ManageProfile\">Manage Your Profile</a></li>\r\n                    <li><a title=\"Post Some Banter\" href=\"Compose\">Post Some Banter</a></li>\r\n                    <li><a title=\"Who Is Following You\" href=\"Followers\">Who Is Following You</a></li>\r\n                    <li><a title=\"Who You Are Following\" href=\"Following\">Who You Are Following</a></li>\r\n					<li><a title=\"Logout\" href=\"logout\">Logout</a></li>\r\n                </ul>\r\n            </aside>\r\n            <section id=\"content\">\r\n                <article>\r\n					<h1><u>".toCharArray();
+    _jsp_string7 = "</a></h5>\r\n									<img src=\"".toCharArray();
+    _jsp_string8 = "\"/>\r\n									<br>Biography: ".toCharArray();
+    _jsp_string10 = "\r\n					<br><hr /><br>\r\n                </article>\r\n            </section>\r\n        </section>\r\n    </div>\r\n</body>\r\n</html>\r\n".toCharArray();
+    _jsp_string5 = "\r\n								<div class=\"post\">\r\n									<h5><a href=\"/richardgoodman/Profile/".toCharArray();
+    _jsp_string6 = "\">".toCharArray();
     _jsp_string0 = "\r\n".toCharArray();
   }
 }

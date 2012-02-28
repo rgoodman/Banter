@@ -8,6 +8,8 @@ import java.sql.*;
 
 public class Login extends HttpServlet
 { 
+	static Connection MyConnection = null;
+
 	public void doPost(HttpServletRequest req, HttpServletResponse res) throws ServletException,IOException
 	{		
 		HttpSession currentSession = req.getSession(true);
@@ -25,8 +27,7 @@ public class Login extends HttpServlet
 		
 		try 
 		{
-			Class.forName("org.gjt.mm.mysql.Driver");
-			Connection MyConnection = DriverManager.getConnection("jdbc:mysql://arlia.computing.dundee.ac.uk/richardgoodman","richardgoodman","ac31004");
+			MyConnection = DatabaseConnectionBean.makeConnection();
 			String searchQuery = "SELECT * FROM account WHERE Username = ? AND Password = ? ";
 			PreparedStatement pstmt = MyConnection.prepareStatement( searchQuery );
 			pstmt.setString( 1, Username);

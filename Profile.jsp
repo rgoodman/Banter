@@ -28,13 +28,13 @@
 <head>
 <title>Banter - A Simple Twitter Clone</title>
 <meta charset="utf-8" />
-<link rel="icon" href="<%= errorBean.getPathname() %>images/B.ico" type="x-icon"/>
-<link rel="stylesheet" href="<%= errorBean.getPathname() %>css/style.css" type="text/css"/>
+<link rel="icon" href="/richardgoodman/images/B.ico" type="x-icon"/>
+<link rel="stylesheet" href="/richardgoodman/css/style.css" type="text/css"/>
 </head>
 <body>	
 	<div id="wrapper">     
         <header>
-			<a href="index.jsp"><img alt="" src="<%= errorBean.getPathname() %>images/banter logo (2).png" />
+			<a href="index.jsp"><img alt="" src="/richardgoodman/images/banter logo (2).png" />
 			<h1><a title="Banter - A Simple Twitter Clone">Banter - A Simple Twitter Clone</a></h1>
         </header>
         <section id="main" class="clearfix">
@@ -58,29 +58,52 @@
 					<input type="submit" id="searchProfile" name="searchProfile" value="Submit"/>
 					</form>
 					<br><hr /><br>
-					<h1><%= profileBean.getUsername() %>'s Profile</h1>
-					<img id="profileImage" src="<%= profileBean.getImage() %>"/>
-					Real name: <%= profileBean.getFirstName() %> <%= profileBean.getSurname() %><br>
-					Email Address: <%= profileBean.getEmail() %><br>
-					Location: <%= profileBean.getCity() %>, <%= profileBean.getCountry() %><br>
-					Website: <a href="<%= profileBean.getHomepage() %>">Website</a><br>
-					Biography: <%= profileBean.getBiography() %><br>
-					<br><a class="followLink" href="/richardgoodman/Follow/<%= profileBean.getUsername() %>">Follow/Unfollow</a>
-					<br><hr /><br>
-					<h1><%= profileBean.getUsername() %>'s Banterful Posts</h1>
+					
 					<%
-						for(int i = 0; i < tweetBean.getMessageSize(); i++)
+						if(profileBean.getUsername() == null || profileBean.getUsername() == "")
 						{
 					%>
-							<div class="post">
-								<h5><%= profileBean.getUsername() %></h5>
-								<img src="<%= profileBean.getImage() %>"/>
+							<h1>User does not exist!</h1>
 					<%
-								out.print(tweetBean.getMessages(i));
+						}
+						else
+						{
 					%>
-								<br>Posted on: <%= tweetBean.getTimePosteds(i) %>
-								<br><br><hr /><br>
-							</div>
+							<h1><%= profileBean.getUsername() %>'s Profile</h1>
+							<img id="profileImage" src="<%= profileBean.getImage() %>"/>
+							Real name: <%= profileBean.getFirstName() %> <%= profileBean.getSurname() %><br>
+							Email Address: <%= profileBean.getEmail() %><br>
+							Location: <%= profileBean.getCity() %>, <%= profileBean.getCountry() %><br>
+							Website: <a href="<%= profileBean.getHomepage() %>">Website</a><br>
+							Biography: <%= profileBean.getBiography() %><br>
+							<br><a class="followLink" href="/richardgoodman/Follow/<%= profileBean.getUsername() %>">Follow/Unfollow</a>
+							<br><hr /><br>
+							<h1><%= profileBean.getUsername() %>'s Banterful Posts</h1>
+							<%
+								for(int i = 0; i < tweetBean.getMessageSize(); i++)
+								{		
+							%>
+									<div class="post">
+										<h5><%= profileBean.getUsername() %></h5>
+										<img src="<%= profileBean.getImage() %>"/>
+							<%
+										out.print(tweetBean.getMessages(i));
+							%>
+										<br>Posted on: <%= tweetBean.getTimePosteds(i) %><br>
+								
+									<% if(userBean.getAccountID() == tweetBean.getAccountIDs(i))
+										{
+									%>
+											<a class="deleteLink" href="/richardgoodman/Delete/<%= tweetBean.getTweetIDs(i) %>">Delete Tweet</a>
+									<%
+										}
+									%>
+									<br><br><hr /><br>
+							<%
+								}
+							%>
+										
+									</div>
 					<%
 						}
 					%>
